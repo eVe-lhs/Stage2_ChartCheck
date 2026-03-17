@@ -1,0 +1,91 @@
+NLG Results -> BLEU: 10.19 | ROUGE-L: 37.33 | BERTScore: 90.15
+
+===================================================================================================================
+  CHARTCHECK EVALUATION MATRIX — Qwen Generative Verifier (Multi-Adapter)
+===================================================================================================================
+                         Model    Task  Test1_Acc  Test1_F1  Test2_Acc  Test2_F1  Avg_Acc  BLEU ROUGE-L BERTScore
+          DePlot-DeBERTa-class        C       75.0      75.0       72.5      72.5     73.8     -       -         -
+  DePlot-FlanT5-finetune-multi        M       65.7      65.7       65.9      65.8     65.8  17.3    46.3      91.5
+         MatCha-finetune-multi        M       59.4      59.1       61.1      60.9     60.2  17.1    37.3      67.8
+             GPT4V (Zero-Shot)        M       73.8      73.5       72.0      71.3     72.9  10.0    32.3      89.1
+ChartSpec + Qwen-CoT (ours)           C       79.0      78.9       79.4      79.4     79.2     10.9       38.2         90.3
+===================================================================================================================
+
+  Avg accuracy vs NLI-DeBERTa baseline : +4.2% (above)
+
+Test 1  →  Acc: 79.0%   Macro-F1: 78.9
+Test 2  →  Acc: 79.4%   Macro-F1: 79.4
+Average →  Acc: 79.2%
+
+Test 1 — Per-class report:
+              precision    recall  f1-score   support
+
+     REFUTED       0.80      0.75      0.77       452
+   SUPPORTED       0.78      0.83      0.80       487
+
+    accuracy                           0.79       939
+   macro avg       0.79      0.79      0.79       939
+weighted avg       0.79      0.79      0.79       
+
+
+
+Fine-grained: performance by chart type (Test 1)
+──────────────────────────────────────────────────
+                                    Accuracy  Count
+chart_type
+                        
+pie_chart                              83.8%    382
+line_chart                             70.1%    244
+barchart_vertical                      80.7%    212
+barchart_horizontal                    83.1%     71
+histogram                              61.9%     21
+unknown                               100.0%      3
+bar+line                              100.0%      2
+area                                   50.0%      2
+scatter_plot                          100.0%      2
+  Total samples accounted for: 939 / 939
+
+
+Fine-grained: performance by reasoning type (Test 1)
+──────────────────────────────────────────────────
+                                  Accuracy  Count
+reasoning_type
+                    
+Find Extremum                          92.3%     26
+Filter, Compare                        61.1%     18
+Retrieve Value                        100.0%      8
+Compute Derived Value(monotonicity)   100.0%      5
+Retrieve Value, Compare               100.0%      4
+KCS, Filter, Compare                  100.0%      4
+KCS, Find Extremum                    100.0%      4
+Find Extremum, KCS                     66.7%      3
+Chart Features(Caption Only)          100.0%      3
+Filter, Compute Derived Value          66.7%      3
+Chart Features(Legend color)          100.0%      2
+Multichart(One chart selection), Fi    50.0%      2
+Determine Range                       100.0%      2
+KCS, Chart Features(Counting Legend   100.0%      2
+Multichart(One chart selection), Co   100.0%      1
+KCS, Compute Derived Value(monotoni   100.0%      1
+Multichart(one selection), Chart Fe   100.0%      1
+Chart Features(color)                 100.0%      1
+Multichart, Filter, Compare, KCS        0.0%      1
+KCS, Filter, Compute Derived Value(   100.0%      1
+KCS, Filter, Compute Derived Value(   100.0%      1
+Filter, Compute Derived Value(Sum),   100.0%      1
+Chart Features(Caption)               100.0%      1
+KCS, Multichart, Compare              100.0%      1
+Compute Derived Value(trend)            0.0%      1
+Multiaxis, Compute Derived Value(mo   100.0%      1
+Filter, Find Extremum                 100.0%      1
+Retrieve Value, Compute Derived Val   100.0%      1
+KCS, Retrieve Value                     0.0%      1
+Filter, Compute Derived Value(Delta   100.0%      1
+Determine Range, KCS                  100.0%      1
+KCS                                     0.0%      1
+Chart Features(Annotation color)      100.0%      1
+Chart Features(Color)                 100.0%      1
+  Total samples accounted for: 939 / 939
+
+
+

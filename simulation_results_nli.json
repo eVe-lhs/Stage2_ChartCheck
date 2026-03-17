@@ -1,0 +1,2708 @@
+[
+    {
+        "sample_id": 1,
+        "image_path": "17979.jpeg",
+        "title_description": "2020s: The Billionaires' Decade? Cumulative wealth and number of billionaires worldwide",
+        "chart_type": "bar_chart",
+        "claim": "The cumulative wealth of billionaires steadily decreased between 2020 and 2026.",
+        "truth": " (REFUTED claim)",
+        "prosed_spec": "Chart type: vertical bar. Axis 'y_axis' range: 4.15 to 20.85. Axis 'y_axis_1' range: 1226 to 3428. Series 'Billionaire Wealth (in $T)': (2013: 5.4), (2014: 6.4), (2015: 7.1), (2016: 6.5), (2017: 7.7), (2018: 9.1), (2019: 8.7), (2020: 8), (2021: 13.1), (2022: 12.7), (2023: 12.2), (2024: 14.2), (2025: 16.1), (2026: 20.1). Min=5.4, Max=20.1. Trend: fluctuating. Series 'Number of billionaires': (2013: 1426), (2014: 1645), (2015: 1826), (2016: 1810), (2017: 2043), (2018: 2208), (2019: 2153), (2020: 2095), (2021: 2755), (2022: 2668), (2023: 2640), (2024: 2781), (2025: 3028), (2026: 3428). Min=1426, Max=3428. Trend: fluctuating. Comparison: At ref point 2013, 'Billionaire Wealth (in $T)' has a higher value (5.4) than 'Number of billionaires' (1426) by 1420.6.. Ranking at '2013': Number of billionaires > Billionaire Wealth (in $T). Comparison: At ref point 2020, 'Billionaire Wealth (in $T)' has a higher value (8) than 'Number of billionaires' (2095) by 2087.. Ranking at '2020': Number of billionaires > Billionaire Wealth (in $T). Comparison: At ref point 2026, 'Billionaire Wealth (in $T)' has a higher value (20.1) than 'Number of billionaires' (3428) by 3407.9.. Ranking at '2026': Number of billionaires > Billionaire Wealth (in $T).",
+        "prediction": "SUPPORTED",
+        "evidence": "Trend: fluctuating.",
+        "rationale": "The cumulative wealth of billionaires steadily decreased between 2020 and 2026. Chart evidence: Trend: fluctuating.",
+        "pruned_spec": {
+            "title": "2020s: The Billionaires’ Decade?",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "Billionaire Wealth (in $T)",
+                    "scl": "linear",
+                    "dom": [
+                        4.15,
+                        20.85
+                    ]
+                },
+                {
+                    "name": "x_axis_1",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis_1",
+                    "lbl": "Number of billionaires",
+                    "scl": "linear",
+                    "dom": [
+                        1226,
+                        3428
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Billionaire Wealth (in $T)",
+                    "color": "#008b8b",
+                    "data": [
+                        [
+                            2013,
+                            5.4
+                        ],
+                        [
+                            2014,
+                            6.4
+                        ],
+                        [
+                            2015,
+                            7.1
+                        ],
+                        [
+                            2016,
+                            6.5
+                        ],
+                        [
+                            2017,
+                            7.7
+                        ],
+                        [
+                            2018,
+                            9.1
+                        ],
+                        [
+                            2019,
+                            8.7
+                        ],
+                        [
+                            2020,
+                            8
+                        ],
+                        [
+                            2021,
+                            13.1
+                        ],
+                        [
+                            2022,
+                            12.7
+                        ],
+                        [
+                            2023,
+                            12.2
+                        ],
+                        [
+                            2024,
+                            14.2
+                        ],
+                        [
+                            2025,
+                            16.1
+                        ],
+                        [
+                            2026,
+                            20.1
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 20.1,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 5.4,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "Number of billionaires",
+                    "color": "#008b8b",
+                    "data": [
+                        [
+                            2013,
+                            1426
+                        ],
+                        [
+                            2014,
+                            1645
+                        ],
+                        [
+                            2015,
+                            1826
+                        ],
+                        [
+                            2016,
+                            1810
+                        ],
+                        [
+                            2017,
+                            2043
+                        ],
+                        [
+                            2018,
+                            2208
+                        ],
+                        [
+                            2019,
+                            2153
+                        ],
+                        [
+                            2020,
+                            2095
+                        ],
+                        [
+                            2021,
+                            2755
+                        ],
+                        [
+                            2022,
+                            2668
+                        ],
+                        [
+                            2023,
+                            2640
+                        ],
+                        [
+                            2024,
+                            2781
+                        ],
+                        [
+                            2025,
+                            3028
+                        ],
+                        [
+                            2026,
+                            3428
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 3428,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 1426,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2013,
+                    "relation": "At ref point 2013, 'Billionaire Wealth (in $T)' has a higher value (5.4) than 'Number of billionaires' (1426) by 1420.6.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2020,
+                    "relation": "At ref point 2020, 'Billionaire Wealth (in $T)' has a higher value (8) than 'Number of billionaires' (2095) by 2087.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2026,
+                    "relation": "At ref point 2026, 'Billionaire Wealth (in $T)' has a higher value (20.1) than 'Number of billionaires' (3428) by 3407.9.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                }
+            ]
+        },
+        "raw_spec": {
+            "title": "2020s: The Billionaires’ Decade?",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "legend": {
+                "on": 1
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "Billionaire Wealth (in $T)",
+                    "scl": "linear",
+                    "dom": [
+                        4.15,
+                        20.85
+                    ]
+                },
+                {
+                    "name": "x_axis_1",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis_1",
+                    "lbl": "Number of billionaires",
+                    "scl": "linear",
+                    "dom": [
+                        1226,
+                        3428
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Billionaire Wealth (in $T)",
+                    "color": "#008b8b",
+                    "data": [
+                        [
+                            2013,
+                            5.4
+                        ],
+                        [
+                            2014,
+                            6.4
+                        ],
+                        [
+                            2015,
+                            7.1
+                        ],
+                        [
+                            2016,
+                            6.5
+                        ],
+                        [
+                            2017,
+                            7.7
+                        ],
+                        [
+                            2018,
+                            9.1
+                        ],
+                        [
+                            2019,
+                            8.7
+                        ],
+                        [
+                            2020,
+                            8
+                        ],
+                        [
+                            2021,
+                            13.1
+                        ],
+                        [
+                            2022,
+                            12.7
+                        ],
+                        [
+                            2023,
+                            12.2
+                        ],
+                        [
+                            2024,
+                            14.2
+                        ],
+                        [
+                            2025,
+                            16.1
+                        ],
+                        [
+                            2026,
+                            20.1
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 20.1,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 5.4,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "Number of billionaires",
+                    "color": "#008b8b",
+                    "data": [
+                        [
+                            2013,
+                            1426
+                        ],
+                        [
+                            2014,
+                            1645
+                        ],
+                        [
+                            2015,
+                            1826
+                        ],
+                        [
+                            2016,
+                            1810
+                        ],
+                        [
+                            2017,
+                            2043
+                        ],
+                        [
+                            2018,
+                            2208
+                        ],
+                        [
+                            2019,
+                            2153
+                        ],
+                        [
+                            2020,
+                            2095
+                        ],
+                        [
+                            2021,
+                            2755
+                        ],
+                        [
+                            2022,
+                            2668
+                        ],
+                        [
+                            2023,
+                            2640
+                        ],
+                        [
+                            2024,
+                            2781
+                        ],
+                        [
+                            2025,
+                            3028
+                        ],
+                        [
+                            2026,
+                            3428
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 3428,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 1426,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2013,
+                    "relation": "At ref point 2013, 'Billionaire Wealth (in $T)' has a higher value (5.4) than 'Number of billionaires' (1426) by 1420.6.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2020,
+                    "relation": "At ref point 2020, 'Billionaire Wealth (in $T)' has a higher value (8) than 'Number of billionaires' (2095) by 2087.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2026,
+                    "relation": "At ref point 2026, 'Billionaire Wealth (in $T)' has a higher value (20.1) than 'Number of billionaires' (3428) by 3407.9.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 2,
+        "image_path": "17979.jpeg",
+        "title_description": "2020s: The Billionaires' Decade? Cumulative wealth and number of billionaires worldwide",
+        "chart_type": "bar_chart",
+        "claim": "The number of billionaires worldwide more than doubled from 2013 to 2026.",
+        "truth": " (SUPPORTED claim)",
+        "prosed_spec": "Chart type: vertical bar. Axis 'y_axis' range: 4.15 to 20.85. Axis 'y_axis_1' range: 1226 to 3428. Series 'Billionaire Wealth (in $T)': (2013: 5.4), (2014: 6.4), (2015: 7.1), (2016: 6.5), (2017: 7.7), (2018: 9.1), (2019: 8.7), (2020: 8), (2021: 13.1), (2022: 12.7), (2023: 12.2), (2024: 14.2), (2025: 16.1), (2026: 20.1). Min=5.4, Max=20.1. Trend: fluctuating. Series 'Number of billionaires': (2013: 1426), (2014: 1645), (2015: 1826), (2016: 1810), (2017: 2043), (2018: 2208), (2019: 2153), (2020: 2095), (2021: 2755), (2022: 2668), (2023: 2640), (2024: 2781), (2025: 3028), (2026: 3428). Min=1426, Max=3428. Trend: fluctuating. Comparison: At ref point 2013, 'Billionaire Wealth (in $T)' has a higher value (5.4) than 'Number of billionaires' (1426) by 1420.6.. Ranking at '2013': Number of billionaires > Billionaire Wealth (in $T). Comparison: At ref point 2020, 'Billionaire Wealth (in $T)' has a higher value (8) than 'Number of billionaires' (2095) by 2087.. Ranking at '2020': Number of billionaires > Billionaire Wealth (in $T). Comparison: At ref point 2026, 'Billionaire Wealth (in $T)' has a higher value (20.1) than 'Number of billionaires' (3428) by 3407.9.. Ranking at '2026': Number of billionaires > Billionaire Wealth (in $T).",
+        "prediction": "SUPPORTED",
+        "evidence": "Trend: fluctuating.",
+        "rationale": "The number of billionaires worldwide increased from 2013 to 2026. Chart evidence: Trend: fluctuating.",
+        "pruned_spec": {
+            "title": "2020s: The Billionaires’ Decade?",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "Billionaire Wealth (in $T)",
+                    "scl": "linear",
+                    "dom": [
+                        4.15,
+                        20.85
+                    ]
+                },
+                {
+                    "name": "x_axis_1",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis_1",
+                    "lbl": "Number of billionaires",
+                    "scl": "linear",
+                    "dom": [
+                        1226,
+                        3428
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Billionaire Wealth (in $T)",
+                    "color": "#008b8b",
+                    "data": [
+                        [
+                            2013,
+                            5.4
+                        ],
+                        [
+                            2014,
+                            6.4
+                        ],
+                        [
+                            2015,
+                            7.1
+                        ],
+                        [
+                            2016,
+                            6.5
+                        ],
+                        [
+                            2017,
+                            7.7
+                        ],
+                        [
+                            2018,
+                            9.1
+                        ],
+                        [
+                            2019,
+                            8.7
+                        ],
+                        [
+                            2020,
+                            8
+                        ],
+                        [
+                            2021,
+                            13.1
+                        ],
+                        [
+                            2022,
+                            12.7
+                        ],
+                        [
+                            2023,
+                            12.2
+                        ],
+                        [
+                            2024,
+                            14.2
+                        ],
+                        [
+                            2025,
+                            16.1
+                        ],
+                        [
+                            2026,
+                            20.1
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 20.1,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 5.4,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "Number of billionaires",
+                    "color": "#008b8b",
+                    "data": [
+                        [
+                            2013,
+                            1426
+                        ],
+                        [
+                            2014,
+                            1645
+                        ],
+                        [
+                            2015,
+                            1826
+                        ],
+                        [
+                            2016,
+                            1810
+                        ],
+                        [
+                            2017,
+                            2043
+                        ],
+                        [
+                            2018,
+                            2208
+                        ],
+                        [
+                            2019,
+                            2153
+                        ],
+                        [
+                            2020,
+                            2095
+                        ],
+                        [
+                            2021,
+                            2755
+                        ],
+                        [
+                            2022,
+                            2668
+                        ],
+                        [
+                            2023,
+                            2640
+                        ],
+                        [
+                            2024,
+                            2781
+                        ],
+                        [
+                            2025,
+                            3028
+                        ],
+                        [
+                            2026,
+                            3428
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 3428,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 1426,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2013,
+                    "relation": "At ref point 2013, 'Billionaire Wealth (in $T)' has a higher value (5.4) than 'Number of billionaires' (1426) by 1420.6.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2020,
+                    "relation": "At ref point 2020, 'Billionaire Wealth (in $T)' has a higher value (8) than 'Number of billionaires' (2095) by 2087.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2026,
+                    "relation": "At ref point 2026, 'Billionaire Wealth (in $T)' has a higher value (20.1) than 'Number of billionaires' (3428) by 3407.9.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                }
+            ]
+        },
+        "raw_spec": {
+            "title": "2020s: The Billionaires’ Decade?",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "legend": {
+                "on": 1
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "Billionaire Wealth (in $T)",
+                    "scl": "linear",
+                    "dom": [
+                        4.15,
+                        20.85
+                    ]
+                },
+                {
+                    "name": "x_axis_1",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis_1",
+                    "lbl": "Number of billionaires",
+                    "scl": "linear",
+                    "dom": [
+                        1226,
+                        3428
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Billionaire Wealth (in $T)",
+                    "color": "#008b8b",
+                    "data": [
+                        [
+                            2013,
+                            5.4
+                        ],
+                        [
+                            2014,
+                            6.4
+                        ],
+                        [
+                            2015,
+                            7.1
+                        ],
+                        [
+                            2016,
+                            6.5
+                        ],
+                        [
+                            2017,
+                            7.7
+                        ],
+                        [
+                            2018,
+                            9.1
+                        ],
+                        [
+                            2019,
+                            8.7
+                        ],
+                        [
+                            2020,
+                            8
+                        ],
+                        [
+                            2021,
+                            13.1
+                        ],
+                        [
+                            2022,
+                            12.7
+                        ],
+                        [
+                            2023,
+                            12.2
+                        ],
+                        [
+                            2024,
+                            14.2
+                        ],
+                        [
+                            2025,
+                            16.1
+                        ],
+                        [
+                            2026,
+                            20.1
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 20.1,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 5.4,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "Number of billionaires",
+                    "color": "#008b8b",
+                    "data": [
+                        [
+                            2013,
+                            1426
+                        ],
+                        [
+                            2014,
+                            1645
+                        ],
+                        [
+                            2015,
+                            1826
+                        ],
+                        [
+                            2016,
+                            1810
+                        ],
+                        [
+                            2017,
+                            2043
+                        ],
+                        [
+                            2018,
+                            2208
+                        ],
+                        [
+                            2019,
+                            2153
+                        ],
+                        [
+                            2020,
+                            2095
+                        ],
+                        [
+                            2021,
+                            2755
+                        ],
+                        [
+                            2022,
+                            2668
+                        ],
+                        [
+                            2023,
+                            2640
+                        ],
+                        [
+                            2024,
+                            2781
+                        ],
+                        [
+                            2025,
+                            3028
+                        ],
+                        [
+                            2026,
+                            3428
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 3428,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 1426,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2013,
+                    "relation": "At ref point 2013, 'Billionaire Wealth (in $T)' has a higher value (5.4) than 'Number of billionaires' (1426) by 1420.6.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2020,
+                    "relation": "At ref point 2020, 'Billionaire Wealth (in $T)' has a higher value (8) than 'Number of billionaires' (2095) by 2087.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2026,
+                    "relation": "At ref point 2026, 'Billionaire Wealth (in $T)' has a higher value (20.1) than 'Number of billionaires' (3428) by 3407.9.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 3,
+        "image_path": "35976.jpeg",
+        "title_description": "Content Marketers Embrace AI in Content Creation: Share of respondents whose department applies AI tools for the following use cases",
+        "chart_type": "horizontal_bar_chart",
+        "claim": "Process automation is the most common use case for AI among content marketers, utilized by over 70% of respondents.",
+        "truth": " (REFUTED claim)",
+        "prosed_spec": "Chart type: horizontal bar. Axis 'y_axis' range: 2.56 to 54.44. Series 'Share of respondents whose department applies AI tools for the following use cases (in %)': (Content creation (text, image, video): 52), (Analysis, reporting & performance measurement: 45), (Customer service/chatbots: 38), (Ideation/inspiration: 38), (Process automation: 37), (Knowledge management/documentation: 35), (SEO (Search Engine Optimization): 33), (Personalization of content: 32), (We do not use AI tools (so far): 4). Min=4, Max=52. Trend: fluctuating. Comparison: 'Content creation (text, image, video)' (52.0) is higher than 'We do not use AI tools (so far)' (4.0) by 48.0.. Ranking at 'Content creation (text, image, video) vs We do not use AI tools (so far)': Content creation (text, image, video) > We do not use AI tools (so far). Comparison: 'Content creation (text, image, video)' (52.0) is higher than 'Analysis, reporting & performance measurement' (45.0) by 7.0.. Ranking at 'Content creation (text, image, video) vs Analysis, reporting & performance measurement': Content creation (text, image, video) > Analysis, reporting & performance measurement. Comparison: 'Analysis, reporting & performance measurement' (45.0) is higher than 'Customer service/chatbots' (38.0) by 7.0.. Ranking at 'Analysis, reporting & performance measurement vs Customer service/chatbots': Analysis, reporting & performance measurement > Customer service/chatbots. Comparison: 'Customer service/chatbots' (38.0) is higher than 'Ideation/inspiration' (38.0) by 0.0.. Ranking at 'Customer service/chatbots vs Ideation/inspiration': Customer service/chatbots > Ideation/inspiration. Comparison: 'Ideation/inspiration' (38.0) is higher than 'Process automation' (37.0) by 1.0.. Ranking at 'Ideation/inspiration vs Process automation': Ideation/inspiration > Process automation. Comparison: 'Content creation (text, image, video)' is ranked #1 with a value of 52.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Content creation (text, image, video)': Content creation (text, image, video). Comparison: 'Analysis, reporting & performance measurement' is ranked #2 with a value of 45.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Analysis, reporting & performance measurement': Analysis, reporting & performance measurement. Comparison: 'Customer service/chatbots' is ranked #3 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Customer service/chatbots': Customer service/chatbots. Comparison: 'Ideation/inspiration' is ranked #4 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Ideation/inspiration': Ideation/inspiration. Comparison: 'Process automation' is ranked #5 with a value of 37.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Process automation': Process automation. Comparison: 'Knowledge management/documentation' is ranked #6 with a value of 35.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Knowledge management/documentation': Knowledge management/documentation. Comparison: 'SEO (Search Engine Optimization)' is ranked #7 with a value of 33.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:SEO (Search Engine Optimization)': SEO (Search Engine Optimization). Comparison: 'Personalization of content' is ranked #8 with a value of 32.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Personalization of content': Personalization of content. Comparison: 'We do not use AI tools (so far)' is ranked #9 with a value of 4.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:We do not use AI tools (so far)': We do not use AI tools (so far).",
+        "prediction": "SUPPORTED",
+        "evidence": "Trend: fluctuating.",
+        "rationale": "AI is the most common use case for process automation among content marketers, utilized by over 70% of respondents. Chart evidence: Trend: fluctuating.",
+        "pruned_spec": {
+            "title": "Content Marketers Embrace AI in Content Creation",
+            "topo": {
+                "type": "bar",
+                "sub": "horizontal"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "Content creation (text, image, video)",
+                        "Analysis, reporting & performance measurement",
+                        "Customer service/chatbots",
+                        "Ideation/inspiration",
+                        "Process automation",
+                        "Knowledge management/documentation",
+                        "SEO (Search Engine Optimization)",
+                        "Personalization of content",
+                        "We do not use AI tools (so far)"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.56,
+                        54.44
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Share of respondents whose department applies AI tools for the following use cases (in %)",
+                    "color": "#ff7f50",
+                    "data": [
+                        [
+                            "Content creation (text, image, video)",
+                            52
+                        ],
+                        [
+                            "Analysis, reporting & performance measurement",
+                            45
+                        ],
+                        [
+                            "Customer service/chatbots",
+                            38
+                        ],
+                        [
+                            "Ideation/inspiration",
+                            38
+                        ],
+                        [
+                            "Process automation",
+                            37
+                        ],
+                        [
+                            "Knowledge management/documentation",
+                            35
+                        ],
+                        [
+                            "SEO (Search Engine Optimization)",
+                            33
+                        ],
+                        [
+                            "Personalization of content",
+                            32
+                        ],
+                        [
+                            "We do not use AI tools (so far)",
+                            4
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    "Content creation (text, image, video)",
+                                    "Knowledge management/documentation"
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    "Knowledge management/documentation",
+                                    "We do not use AI tools (so far)"
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 52,
+                        "max_at_the_ref_point": "Content creation (text, image, video)",
+                        "min_value": 4,
+                        "min_at_the_ref_point": "We do not use AI tools (so far)",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": "Content creation (text, image, video) vs We do not use AI tools (so far)",
+                    "relation": "'Content creation (text, image, video)' (52.0) is higher than 'We do not use AI tools (so far)' (4.0) by 48.0.",
+                    "ranking": [
+                        "Content creation (text, image, video)",
+                        "We do not use AI tools (so far)"
+                    ]
+                },
+                {
+                    "ref": "Content creation (text, image, video) vs Analysis, reporting & performance measurement",
+                    "relation": "'Content creation (text, image, video)' (52.0) is higher than 'Analysis, reporting & performance measurement' (45.0) by 7.0.",
+                    "ranking": [
+                        "Content creation (text, image, video)",
+                        "Analysis, reporting & performance measurement"
+                    ]
+                },
+                {
+                    "ref": "Analysis, reporting & performance measurement vs Customer service/chatbots",
+                    "relation": "'Analysis, reporting & performance measurement' (45.0) is higher than 'Customer service/chatbots' (38.0) by 7.0.",
+                    "ranking": [
+                        "Analysis, reporting & performance measurement",
+                        "Customer service/chatbots"
+                    ]
+                },
+                {
+                    "ref": "Customer service/chatbots vs Ideation/inspiration",
+                    "relation": "'Customer service/chatbots' (38.0) is higher than 'Ideation/inspiration' (38.0) by 0.0.",
+                    "ranking": [
+                        "Customer service/chatbots",
+                        "Ideation/inspiration"
+                    ]
+                },
+                {
+                    "ref": "Ideation/inspiration vs Process automation",
+                    "relation": "'Ideation/inspiration' (38.0) is higher than 'Process automation' (37.0) by 1.0.",
+                    "ranking": [
+                        "Ideation/inspiration",
+                        "Process automation"
+                    ]
+                },
+                {
+                    "ref": "rank:Content creation (text, image, video)",
+                    "relation": "'Content creation (text, image, video)' is ranked #1 with a value of 52.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Content creation (text, image, video)"
+                    ]
+                },
+                {
+                    "ref": "rank:Analysis, reporting & performance measurement",
+                    "relation": "'Analysis, reporting & performance measurement' is ranked #2 with a value of 45.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Analysis, reporting & performance measurement"
+                    ]
+                },
+                {
+                    "ref": "rank:Customer service/chatbots",
+                    "relation": "'Customer service/chatbots' is ranked #3 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Customer service/chatbots"
+                    ]
+                },
+                {
+                    "ref": "rank:Ideation/inspiration",
+                    "relation": "'Ideation/inspiration' is ranked #4 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Ideation/inspiration"
+                    ]
+                },
+                {
+                    "ref": "rank:Process automation",
+                    "relation": "'Process automation' is ranked #5 with a value of 37.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Process automation"
+                    ]
+                },
+                {
+                    "ref": "rank:Knowledge management/documentation",
+                    "relation": "'Knowledge management/documentation' is ranked #6 with a value of 35.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Knowledge management/documentation"
+                    ]
+                },
+                {
+                    "ref": "rank:SEO (Search Engine Optimization)",
+                    "relation": "'SEO (Search Engine Optimization)' is ranked #7 with a value of 33.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "SEO (Search Engine Optimization)"
+                    ]
+                },
+                {
+                    "ref": "rank:Personalization of content",
+                    "relation": "'Personalization of content' is ranked #8 with a value of 32.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Personalization of content"
+                    ]
+                },
+                {
+                    "ref": "rank:We do not use AI tools (so far)",
+                    "relation": "'We do not use AI tools (so far)' is ranked #9 with a value of 4.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "We do not use AI tools (so far)"
+                    ]
+                }
+            ]
+        },
+        "raw_spec": {
+            "title": "Content Marketers Embrace AI in Content Creation",
+            "topo": {
+                "type": "bar",
+                "sub": "horizontal"
+            },
+            "legend": {
+                "on": 0
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "Content creation (text, image, video)",
+                        "Analysis, reporting & performance measurement",
+                        "Customer service/chatbots",
+                        "Ideation/inspiration",
+                        "Process automation",
+                        "Knowledge management/documentation",
+                        "SEO (Search Engine Optimization)",
+                        "Personalization of content",
+                        "We do not use AI tools (so far)"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.56,
+                        54.44
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Share of respondents whose department applies AI tools for the following use cases (in %)",
+                    "color": "#ff7f50",
+                    "data": [
+                        [
+                            "Content creation (text, image, video)",
+                            52
+                        ],
+                        [
+                            "Analysis, reporting & performance measurement",
+                            45
+                        ],
+                        [
+                            "Customer service/chatbots",
+                            38
+                        ],
+                        [
+                            "Ideation/inspiration",
+                            38
+                        ],
+                        [
+                            "Process automation",
+                            37
+                        ],
+                        [
+                            "Knowledge management/documentation",
+                            35
+                        ],
+                        [
+                            "SEO (Search Engine Optimization)",
+                            33
+                        ],
+                        [
+                            "Personalization of content",
+                            32
+                        ],
+                        [
+                            "We do not use AI tools (so far)",
+                            4
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    "Content creation (text, image, video)",
+                                    "Knowledge management/documentation"
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    "Knowledge management/documentation",
+                                    "We do not use AI tools (so far)"
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 52,
+                        "max_at_the_ref_point": "Content creation (text, image, video)",
+                        "min_value": 4,
+                        "min_at_the_ref_point": "We do not use AI tools (so far)",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": "Content creation (text, image, video) vs We do not use AI tools (so far)",
+                    "relation": "'Content creation (text, image, video)' (52.0) is higher than 'We do not use AI tools (so far)' (4.0) by 48.0.",
+                    "ranking": [
+                        "Content creation (text, image, video)",
+                        "We do not use AI tools (so far)"
+                    ]
+                },
+                {
+                    "ref": "Content creation (text, image, video) vs Analysis, reporting & performance measurement",
+                    "relation": "'Content creation (text, image, video)' (52.0) is higher than 'Analysis, reporting & performance measurement' (45.0) by 7.0.",
+                    "ranking": [
+                        "Content creation (text, image, video)",
+                        "Analysis, reporting & performance measurement"
+                    ]
+                },
+                {
+                    "ref": "Analysis, reporting & performance measurement vs Customer service/chatbots",
+                    "relation": "'Analysis, reporting & performance measurement' (45.0) is higher than 'Customer service/chatbots' (38.0) by 7.0.",
+                    "ranking": [
+                        "Analysis, reporting & performance measurement",
+                        "Customer service/chatbots"
+                    ]
+                },
+                {
+                    "ref": "Customer service/chatbots vs Ideation/inspiration",
+                    "relation": "'Customer service/chatbots' (38.0) is higher than 'Ideation/inspiration' (38.0) by 0.0.",
+                    "ranking": [
+                        "Customer service/chatbots",
+                        "Ideation/inspiration"
+                    ]
+                },
+                {
+                    "ref": "Ideation/inspiration vs Process automation",
+                    "relation": "'Ideation/inspiration' (38.0) is higher than 'Process automation' (37.0) by 1.0.",
+                    "ranking": [
+                        "Ideation/inspiration",
+                        "Process automation"
+                    ]
+                },
+                {
+                    "ref": "rank:Content creation (text, image, video)",
+                    "relation": "'Content creation (text, image, video)' is ranked #1 with a value of 52.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Content creation (text, image, video)"
+                    ]
+                },
+                {
+                    "ref": "rank:Analysis, reporting & performance measurement",
+                    "relation": "'Analysis, reporting & performance measurement' is ranked #2 with a value of 45.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Analysis, reporting & performance measurement"
+                    ]
+                },
+                {
+                    "ref": "rank:Customer service/chatbots",
+                    "relation": "'Customer service/chatbots' is ranked #3 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Customer service/chatbots"
+                    ]
+                },
+                {
+                    "ref": "rank:Ideation/inspiration",
+                    "relation": "'Ideation/inspiration' is ranked #4 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Ideation/inspiration"
+                    ]
+                },
+                {
+                    "ref": "rank:Process automation",
+                    "relation": "'Process automation' is ranked #5 with a value of 37.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Process automation"
+                    ]
+                },
+                {
+                    "ref": "rank:Knowledge management/documentation",
+                    "relation": "'Knowledge management/documentation' is ranked #6 with a value of 35.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Knowledge management/documentation"
+                    ]
+                },
+                {
+                    "ref": "rank:SEO (Search Engine Optimization)",
+                    "relation": "'SEO (Search Engine Optimization)' is ranked #7 with a value of 33.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "SEO (Search Engine Optimization)"
+                    ]
+                },
+                {
+                    "ref": "rank:Personalization of content",
+                    "relation": "'Personalization of content' is ranked #8 with a value of 32.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Personalization of content"
+                    ]
+                },
+                {
+                    "ref": "rank:We do not use AI tools (so far)",
+                    "relation": "'We do not use AI tools (so far)' is ranked #9 with a value of 4.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "We do not use AI tools (so far)"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 4,
+        "image_path": "35976.jpeg",
+        "title_description": "Content Marketers Embrace AI in Content Creation: Share of respondents whose department applies AI tools for the following use cases",
+        "chart_type": "horizontal_bar_chart",
+        "claim": "Over half of the surveyed content marketing professionals use AI tools for content creation, making it the top use case.",
+        "truth": " (SUPPORTED claim)",
+        "prosed_spec": "Chart type: horizontal bar. Axis 'y_axis' range: 2.56 to 54.44. Series 'Share of respondents whose department applies AI tools for the following use cases (in %)': (Content creation (text, image, video): 52), (Analysis, reporting & performance measurement: 45), (Customer service/chatbots: 38), (Ideation/inspiration: 38), (Process automation: 37), (Knowledge management/documentation: 35), (SEO (Search Engine Optimization): 33), (Personalization of content: 32), (We do not use AI tools (so far): 4). Min=4, Max=52. Trend: fluctuating. Comparison: 'Content creation (text, image, video)' (52.0) is higher than 'We do not use AI tools (so far)' (4.0) by 48.0.. Ranking at 'Content creation (text, image, video) vs We do not use AI tools (so far)': Content creation (text, image, video) > We do not use AI tools (so far). Comparison: 'Content creation (text, image, video)' (52.0) is higher than 'Analysis, reporting & performance measurement' (45.0) by 7.0.. Ranking at 'Content creation (text, image, video) vs Analysis, reporting & performance measurement': Content creation (text, image, video) > Analysis, reporting & performance measurement. Comparison: 'Analysis, reporting & performance measurement' (45.0) is higher than 'Customer service/chatbots' (38.0) by 7.0.. Ranking at 'Analysis, reporting & performance measurement vs Customer service/chatbots': Analysis, reporting & performance measurement > Customer service/chatbots. Comparison: 'Customer service/chatbots' (38.0) is higher than 'Ideation/inspiration' (38.0) by 0.0.. Ranking at 'Customer service/chatbots vs Ideation/inspiration': Customer service/chatbots > Ideation/inspiration. Comparison: 'Ideation/inspiration' (38.0) is higher than 'Process automation' (37.0) by 1.0.. Ranking at 'Ideation/inspiration vs Process automation': Ideation/inspiration > Process automation. Comparison: 'Content creation (text, image, video)' is ranked #1 with a value of 52.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Content creation (text, image, video)': Content creation (text, image, video). Comparison: 'Analysis, reporting & performance measurement' is ranked #2 with a value of 45.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Analysis, reporting & performance measurement': Analysis, reporting & performance measurement. Comparison: 'Customer service/chatbots' is ranked #3 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Customer service/chatbots': Customer service/chatbots. Comparison: 'Ideation/inspiration' is ranked #4 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Ideation/inspiration': Ideation/inspiration. Comparison: 'Process automation' is ranked #5 with a value of 37.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Process automation': Process automation. Comparison: 'Knowledge management/documentation' is ranked #6 with a value of 35.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Knowledge management/documentation': Knowledge management/documentation. Comparison: 'SEO (Search Engine Optimization)' is ranked #7 with a value of 33.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:SEO (Search Engine Optimization)': SEO (Search Engine Optimization). Comparison: 'Personalization of content' is ranked #8 with a value of 32.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:Personalization of content': Personalization of content. Comparison: 'We do not use AI tools (so far)' is ranked #9 with a value of 4.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).. Ranking at 'rank:We do not use AI tools (so far)': We do not use AI tools (so far).",
+        "prediction": "REFUTED",
+        "evidence": "Trend: fluctuating.",
+        "rationale": "The following is a chart fact-checking assistant. The following claim has been verified as refuted: Over half of the surveyed content marketing professionals use AI tools for content creation, making it the top use case. Chart evidence: Trend: fluctuating.",
+        "pruned_spec": {
+            "title": "Content Marketers Embrace AI in Content Creation",
+            "topo": {
+                "type": "bar",
+                "sub": "horizontal"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "Content creation (text, image, video)",
+                        "Analysis, reporting & performance measurement",
+                        "Customer service/chatbots",
+                        "Ideation/inspiration",
+                        "Process automation",
+                        "Knowledge management/documentation",
+                        "SEO (Search Engine Optimization)",
+                        "Personalization of content",
+                        "We do not use AI tools (so far)"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.56,
+                        54.44
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Share of respondents whose department applies AI tools for the following use cases (in %)",
+                    "color": "#ff7f50",
+                    "data": [
+                        [
+                            "Content creation (text, image, video)",
+                            52
+                        ],
+                        [
+                            "Analysis, reporting & performance measurement",
+                            45
+                        ],
+                        [
+                            "Customer service/chatbots",
+                            38
+                        ],
+                        [
+                            "Ideation/inspiration",
+                            38
+                        ],
+                        [
+                            "Process automation",
+                            37
+                        ],
+                        [
+                            "Knowledge management/documentation",
+                            35
+                        ],
+                        [
+                            "SEO (Search Engine Optimization)",
+                            33
+                        ],
+                        [
+                            "Personalization of content",
+                            32
+                        ],
+                        [
+                            "We do not use AI tools (so far)",
+                            4
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    "Content creation (text, image, video)",
+                                    "Knowledge management/documentation"
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    "Knowledge management/documentation",
+                                    "We do not use AI tools (so far)"
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 52,
+                        "max_at_the_ref_point": "Content creation (text, image, video)",
+                        "min_value": 4,
+                        "min_at_the_ref_point": "We do not use AI tools (so far)",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": "Content creation (text, image, video) vs We do not use AI tools (so far)",
+                    "relation": "'Content creation (text, image, video)' (52.0) is higher than 'We do not use AI tools (so far)' (4.0) by 48.0.",
+                    "ranking": [
+                        "Content creation (text, image, video)",
+                        "We do not use AI tools (so far)"
+                    ]
+                },
+                {
+                    "ref": "Content creation (text, image, video) vs Analysis, reporting & performance measurement",
+                    "relation": "'Content creation (text, image, video)' (52.0) is higher than 'Analysis, reporting & performance measurement' (45.0) by 7.0.",
+                    "ranking": [
+                        "Content creation (text, image, video)",
+                        "Analysis, reporting & performance measurement"
+                    ]
+                },
+                {
+                    "ref": "Analysis, reporting & performance measurement vs Customer service/chatbots",
+                    "relation": "'Analysis, reporting & performance measurement' (45.0) is higher than 'Customer service/chatbots' (38.0) by 7.0.",
+                    "ranking": [
+                        "Analysis, reporting & performance measurement",
+                        "Customer service/chatbots"
+                    ]
+                },
+                {
+                    "ref": "Customer service/chatbots vs Ideation/inspiration",
+                    "relation": "'Customer service/chatbots' (38.0) is higher than 'Ideation/inspiration' (38.0) by 0.0.",
+                    "ranking": [
+                        "Customer service/chatbots",
+                        "Ideation/inspiration"
+                    ]
+                },
+                {
+                    "ref": "Ideation/inspiration vs Process automation",
+                    "relation": "'Ideation/inspiration' (38.0) is higher than 'Process automation' (37.0) by 1.0.",
+                    "ranking": [
+                        "Ideation/inspiration",
+                        "Process automation"
+                    ]
+                },
+                {
+                    "ref": "rank:Content creation (text, image, video)",
+                    "relation": "'Content creation (text, image, video)' is ranked #1 with a value of 52.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Content creation (text, image, video)"
+                    ]
+                },
+                {
+                    "ref": "rank:Analysis, reporting & performance measurement",
+                    "relation": "'Analysis, reporting & performance measurement' is ranked #2 with a value of 45.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Analysis, reporting & performance measurement"
+                    ]
+                },
+                {
+                    "ref": "rank:Customer service/chatbots",
+                    "relation": "'Customer service/chatbots' is ranked #3 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Customer service/chatbots"
+                    ]
+                },
+                {
+                    "ref": "rank:Ideation/inspiration",
+                    "relation": "'Ideation/inspiration' is ranked #4 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Ideation/inspiration"
+                    ]
+                },
+                {
+                    "ref": "rank:Process automation",
+                    "relation": "'Process automation' is ranked #5 with a value of 37.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Process automation"
+                    ]
+                },
+                {
+                    "ref": "rank:Knowledge management/documentation",
+                    "relation": "'Knowledge management/documentation' is ranked #6 with a value of 35.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Knowledge management/documentation"
+                    ]
+                },
+                {
+                    "ref": "rank:SEO (Search Engine Optimization)",
+                    "relation": "'SEO (Search Engine Optimization)' is ranked #7 with a value of 33.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "SEO (Search Engine Optimization)"
+                    ]
+                },
+                {
+                    "ref": "rank:Personalization of content",
+                    "relation": "'Personalization of content' is ranked #8 with a value of 32.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Personalization of content"
+                    ]
+                },
+                {
+                    "ref": "rank:We do not use AI tools (so far)",
+                    "relation": "'We do not use AI tools (so far)' is ranked #9 with a value of 4.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "We do not use AI tools (so far)"
+                    ]
+                }
+            ]
+        },
+        "raw_spec": {
+            "title": "Content Marketers Embrace AI in Content Creation",
+            "topo": {
+                "type": "bar",
+                "sub": "horizontal"
+            },
+            "legend": {
+                "on": 0
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "Content creation (text, image, video)",
+                        "Analysis, reporting & performance measurement",
+                        "Customer service/chatbots",
+                        "Ideation/inspiration",
+                        "Process automation",
+                        "Knowledge management/documentation",
+                        "SEO (Search Engine Optimization)",
+                        "Personalization of content",
+                        "We do not use AI tools (so far)"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.56,
+                        54.44
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Share of respondents whose department applies AI tools for the following use cases (in %)",
+                    "color": "#ff7f50",
+                    "data": [
+                        [
+                            "Content creation (text, image, video)",
+                            52
+                        ],
+                        [
+                            "Analysis, reporting & performance measurement",
+                            45
+                        ],
+                        [
+                            "Customer service/chatbots",
+                            38
+                        ],
+                        [
+                            "Ideation/inspiration",
+                            38
+                        ],
+                        [
+                            "Process automation",
+                            37
+                        ],
+                        [
+                            "Knowledge management/documentation",
+                            35
+                        ],
+                        [
+                            "SEO (Search Engine Optimization)",
+                            33
+                        ],
+                        [
+                            "Personalization of content",
+                            32
+                        ],
+                        [
+                            "We do not use AI tools (so far)",
+                            4
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    "Content creation (text, image, video)",
+                                    "Knowledge management/documentation"
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    "Knowledge management/documentation",
+                                    "We do not use AI tools (so far)"
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 52,
+                        "max_at_the_ref_point": "Content creation (text, image, video)",
+                        "min_value": 4,
+                        "min_at_the_ref_point": "We do not use AI tools (so far)",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": "Content creation (text, image, video) vs We do not use AI tools (so far)",
+                    "relation": "'Content creation (text, image, video)' (52.0) is higher than 'We do not use AI tools (so far)' (4.0) by 48.0.",
+                    "ranking": [
+                        "Content creation (text, image, video)",
+                        "We do not use AI tools (so far)"
+                    ]
+                },
+                {
+                    "ref": "Content creation (text, image, video) vs Analysis, reporting & performance measurement",
+                    "relation": "'Content creation (text, image, video)' (52.0) is higher than 'Analysis, reporting & performance measurement' (45.0) by 7.0.",
+                    "ranking": [
+                        "Content creation (text, image, video)",
+                        "Analysis, reporting & performance measurement"
+                    ]
+                },
+                {
+                    "ref": "Analysis, reporting & performance measurement vs Customer service/chatbots",
+                    "relation": "'Analysis, reporting & performance measurement' (45.0) is higher than 'Customer service/chatbots' (38.0) by 7.0.",
+                    "ranking": [
+                        "Analysis, reporting & performance measurement",
+                        "Customer service/chatbots"
+                    ]
+                },
+                {
+                    "ref": "Customer service/chatbots vs Ideation/inspiration",
+                    "relation": "'Customer service/chatbots' (38.0) is higher than 'Ideation/inspiration' (38.0) by 0.0.",
+                    "ranking": [
+                        "Customer service/chatbots",
+                        "Ideation/inspiration"
+                    ]
+                },
+                {
+                    "ref": "Ideation/inspiration vs Process automation",
+                    "relation": "'Ideation/inspiration' (38.0) is higher than 'Process automation' (37.0) by 1.0.",
+                    "ranking": [
+                        "Ideation/inspiration",
+                        "Process automation"
+                    ]
+                },
+                {
+                    "ref": "rank:Content creation (text, image, video)",
+                    "relation": "'Content creation (text, image, video)' is ranked #1 with a value of 52.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Content creation (text, image, video)"
+                    ]
+                },
+                {
+                    "ref": "rank:Analysis, reporting & performance measurement",
+                    "relation": "'Analysis, reporting & performance measurement' is ranked #2 with a value of 45.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Analysis, reporting & performance measurement"
+                    ]
+                },
+                {
+                    "ref": "rank:Customer service/chatbots",
+                    "relation": "'Customer service/chatbots' is ranked #3 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Customer service/chatbots"
+                    ]
+                },
+                {
+                    "ref": "rank:Ideation/inspiration",
+                    "relation": "'Ideation/inspiration' is ranked #4 with a value of 38.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Ideation/inspiration"
+                    ]
+                },
+                {
+                    "ref": "rank:Process automation",
+                    "relation": "'Process automation' is ranked #5 with a value of 37.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Process automation"
+                    ]
+                },
+                {
+                    "ref": "rank:Knowledge management/documentation",
+                    "relation": "'Knowledge management/documentation' is ranked #6 with a value of 35.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Knowledge management/documentation"
+                    ]
+                },
+                {
+                    "ref": "rank:SEO (Search Engine Optimization)",
+                    "relation": "'SEO (Search Engine Optimization)' is ranked #7 with a value of 33.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "SEO (Search Engine Optimization)"
+                    ]
+                },
+                {
+                    "ref": "rank:Personalization of content",
+                    "relation": "'Personalization of content' is ranked #8 with a value of 32.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "Personalization of content"
+                    ]
+                },
+                {
+                    "ref": "rank:We do not use AI tools (so far)",
+                    "relation": "'We do not use AI tools (so far)' is ranked #9 with a value of 4.0. The top-ranked item is 'Content creation (text, image, video)' (52.0).",
+                    "ranking": [
+                        "We do not use AI tools (so far)"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 5,
+        "image_path": "35957.jpeg",
+        "title_description": "Web Censorship Cases Rebound in 2025: Documented cases of government-imposed online censorship worldwide",
+        "chart_type": "clustered_bar_chart",
+        "claim": "The number of new web censorship cases steadily decreased every year from 2022 to 2025.",
+        "truth": " (REFUTED claim)",
+        "prosed_spec": "Chart type: vertical bar. Axis 'y_axis' range: 2.7 to 86.3. Series 'Ongoing violations at the start of the year': (2022: 34), (2023: 40), (2024: 53), (2025: 47). Min=34, Max=53. Trend: peak_then_drop. Series 'New cases reported during the year': (2022: 78), (2023: 76), (2024: 63), (2025: 81). Min=63, Max=81. Trend: fluctuating. Comparison: At ref point 2022, 'New cases reported during the year' has a higher value (78) than 'Ongoing violations at the start of the year' (34) by 44.. Ranking at '2022': New cases reported during the year > Ongoing violations at the start of the year. Comparison: At ref point 2024, 'New cases reported during the year' has a higher value (63) than 'Ongoing violations at the start of the year' (53) by 10.. Ranking at '2024': New cases reported during the year > Ongoing violations at the start of the year. Comparison: At ref point 2025, 'New cases reported during the year' has a higher value (81) than 'Ongoing violations at the start of the year' (47) by 34.. Ranking at '2025': New cases reported during the year > Ongoing violations at the start of the year.",
+        "prediction": "REFUTED",
+        "evidence": "Min=63, Max=81.",
+        "rationale": "The number of new web censorship cases steadily decreased every year from 2022 to 2025. Chart evidence: Min=63, Max=81.",
+        "pruned_spec": {
+            "title": "Web Censorship Cases Rebound in 2025",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.7,
+                        86.3
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Ongoing violations at the start of the year",
+                    "color": "#ff7f50",
+                    "data": [
+                        [
+                            2022,
+                            34
+                        ],
+                        [
+                            2023,
+                            40
+                        ],
+                        [
+                            2024,
+                            53
+                        ],
+                        [
+                            2025,
+                            47
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "peak_then_drop",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "increase"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 53,
+                        "max_at_the_ref_point": 2024,
+                        "min_value": 34,
+                        "min_at_the_ref_point": 2022,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "New cases reported during the year",
+                    "color": "#b22222",
+                    "data": [
+                        [
+                            2022,
+                            78
+                        ],
+                        [
+                            2023,
+                            76
+                        ],
+                        [
+                            2024,
+                            63
+                        ],
+                        [
+                            2025,
+                            81
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "decrease"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 81,
+                        "max_at_the_ref_point": 2025,
+                        "min_value": 63,
+                        "min_at_the_ref_point": 2024,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2022,
+                    "relation": "At ref point 2022, 'New cases reported during the year' has a higher value (78) than 'Ongoing violations at the start of the year' (34) by 44.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2024,
+                    "relation": "At ref point 2024, 'New cases reported during the year' has a higher value (63) than 'Ongoing violations at the start of the year' (53) by 10.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2025,
+                    "relation": "At ref point 2025, 'New cases reported during the year' has a higher value (81) than 'Ongoing violations at the start of the year' (47) by 34.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                }
+            ]
+        },
+        "raw_spec": {
+            "title": "Web Censorship Cases Rebound in 2025",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "legend": {
+                "on": 1
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.7,
+                        86.3
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Ongoing violations at the start of the year",
+                    "color": "#ff7f50",
+                    "data": [
+                        [
+                            2022,
+                            34
+                        ],
+                        [
+                            2023,
+                            40
+                        ],
+                        [
+                            2024,
+                            53
+                        ],
+                        [
+                            2025,
+                            47
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "peak_then_drop",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "increase"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 53,
+                        "max_at_the_ref_point": 2024,
+                        "min_value": 34,
+                        "min_at_the_ref_point": 2022,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "New cases reported during the year",
+                    "color": "#b22222",
+                    "data": [
+                        [
+                            2022,
+                            78
+                        ],
+                        [
+                            2023,
+                            76
+                        ],
+                        [
+                            2024,
+                            63
+                        ],
+                        [
+                            2025,
+                            81
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "decrease"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 81,
+                        "max_at_the_ref_point": 2025,
+                        "min_value": 63,
+                        "min_at_the_ref_point": 2024,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2022,
+                    "relation": "At ref point 2022, 'New cases reported during the year' has a higher value (78) than 'Ongoing violations at the start of the year' (34) by 44.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2024,
+                    "relation": "At ref point 2024, 'New cases reported during the year' has a higher value (63) than 'Ongoing violations at the start of the year' (53) by 10.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2025,
+                    "relation": "At ref point 2025, 'New cases reported during the year' has a higher value (81) than 'Ongoing violations at the start of the year' (47) by 34.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 6,
+        "image_path": "35957.jpeg",
+        "title_description": "Web Censorship Cases Rebound in 2025: Documented cases of government-imposed online censorship worldwide",
+        "chart_type": "clustered_bar_chart",
+        "claim": "There were more new web censorship cases reported in 2025 than in any other year shown on the chart.",
+        "truth": " (SUPPORTED claim)",
+        "prosed_spec": "Chart type: vertical bar. Axis 'y_axis' range: 2.7 to 86.3. Series 'Ongoing violations at the start of the year': (2022: 34), (2023: 40), (2024: 53), (2025: 47). Min=34, Max=53. Trend: peak_then_drop. Series 'New cases reported during the year': (2022: 78), (2023: 76), (2024: 63), (2025: 81). Min=63, Max=81. Trend: fluctuating. Comparison: At ref point 2022, 'New cases reported during the year' has a higher value (78) than 'Ongoing violations at the start of the year' (34) by 44.. Ranking at '2022': New cases reported during the year > Ongoing violations at the start of the year. Comparison: At ref point 2024, 'New cases reported during the year' has a higher value (63) than 'Ongoing violations at the start of the year' (53) by 10.. Ranking at '2024': New cases reported during the year > Ongoing violations at the start of the year. Comparison: At ref point 2025, 'New cases reported during the year' has a higher value (81) than 'Ongoing violations at the start of the year' (47) by 34.. Ranking at '2025': New cases reported during the year > Ongoing violations at the start of the year.",
+        "prediction": "REFUTED",
+        "evidence": "Trend: fluctuating.",
+        "rationale": "There were more new web censorship cases reported in 2025 than in any other year shown on the chart. Chart evidence: Trend: fluctuating.",
+        "pruned_spec": {
+            "title": "Web Censorship Cases Rebound in 2025",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.7,
+                        86.3
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Ongoing violations at the start of the year",
+                    "color": "#ff7f50",
+                    "data": [
+                        [
+                            2022,
+                            34
+                        ],
+                        [
+                            2023,
+                            40
+                        ],
+                        [
+                            2024,
+                            53
+                        ],
+                        [
+                            2025,
+                            47
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "peak_then_drop",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "increase"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 53,
+                        "max_at_the_ref_point": 2024,
+                        "min_value": 34,
+                        "min_at_the_ref_point": 2022,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "New cases reported during the year",
+                    "color": "#b22222",
+                    "data": [
+                        [
+                            2022,
+                            78
+                        ],
+                        [
+                            2023,
+                            76
+                        ],
+                        [
+                            2024,
+                            63
+                        ],
+                        [
+                            2025,
+                            81
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "decrease"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 81,
+                        "max_at_the_ref_point": 2025,
+                        "min_value": 63,
+                        "min_at_the_ref_point": 2024,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2022,
+                    "relation": "At ref point 2022, 'New cases reported during the year' has a higher value (78) than 'Ongoing violations at the start of the year' (34) by 44.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2024,
+                    "relation": "At ref point 2024, 'New cases reported during the year' has a higher value (63) than 'Ongoing violations at the start of the year' (53) by 10.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2025,
+                    "relation": "At ref point 2025, 'New cases reported during the year' has a higher value (81) than 'Ongoing violations at the start of the year' (47) by 34.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                }
+            ]
+        },
+        "raw_spec": {
+            "title": "Web Censorship Cases Rebound in 2025",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "legend": {
+                "on": 1
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.7,
+                        86.3
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Ongoing violations at the start of the year",
+                    "color": "#ff7f50",
+                    "data": [
+                        [
+                            2022,
+                            34
+                        ],
+                        [
+                            2023,
+                            40
+                        ],
+                        [
+                            2024,
+                            53
+                        ],
+                        [
+                            2025,
+                            47
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "peak_then_drop",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "increase"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 53,
+                        "max_at_the_ref_point": 2024,
+                        "min_value": 34,
+                        "min_at_the_ref_point": 2022,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "New cases reported during the year",
+                    "color": "#b22222",
+                    "data": [
+                        [
+                            2022,
+                            78
+                        ],
+                        [
+                            2023,
+                            76
+                        ],
+                        [
+                            2024,
+                            63
+                        ],
+                        [
+                            2025,
+                            81
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "decrease"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 81,
+                        "max_at_the_ref_point": 2025,
+                        "min_value": 63,
+                        "min_at_the_ref_point": 2024,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2022,
+                    "relation": "At ref point 2022, 'New cases reported during the year' has a higher value (78) than 'Ongoing violations at the start of the year' (34) by 44.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2024,
+                    "relation": "At ref point 2024, 'New cases reported during the year' has a higher value (63) than 'Ongoing violations at the start of the year' (53) by 10.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2025,
+                    "relation": "At ref point 2025, 'New cases reported during the year' has a higher value (81) than 'Ongoing violations at the start of the year' (47) by 34.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                }
+            ]
+        }
+    }
+]
