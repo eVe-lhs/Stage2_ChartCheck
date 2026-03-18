@@ -8,7 +8,7 @@ NLG Results -> BLEU: 10.19 | ROUGE-L: 37.33 | BERTScore: 90.15
   DePlot-FlanT5-finetune-multi        M       65.7      65.7       65.9      65.8     65.8  17.3    46.3      91.5
          MatCha-finetune-multi        M       59.4      59.1       61.1      60.9     60.2  17.1    37.3      67.8
              GPT4V (Zero-Shot)        M       73.8      73.5       72.0      71.3     72.9  10.0    32.3      89.1
-ChartSpec + Qwen-CoT (ours)           C       79.0      78.9       79.4      79.4     79.2     10.9       38.2         90.3
+ChartSpec + Qwen-CoT (ours)           C       79.0      78.9       79.4      79.4     79.2  10.9    38.2      90.3
 ===================================================================================================================
 
   Avg accuracy vs NLI-DeBERTa baseline : +4.2% (above)
