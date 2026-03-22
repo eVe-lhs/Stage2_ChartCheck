@@ -1,0 +1,1154 @@
+[
+    {
+        "sample_id": 1,
+        "image_path": "17979.jpeg",
+        "chart_type": "bar_chart",
+        "claim": "The cumulative wealth of billionaires steadily decreased between 2020 and 2026.",
+        "truth": "(REFUTED claim)",
+        "prediction": "REFUTED",
+        "rationale": "The chart shows that the number of billionaires increased from 2020 to 2026, indicating that their cumulative wealth also increased during that period.",
+        "pruned_spec": {
+            "title": "2020s: The Billionaires’ Decade?",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "Billionaire Wealth (in $T)",
+                    "scl": "linear",
+                    "dom": [
+                        4.1,
+                        20.6
+                    ]
+                },
+                {
+                    "name": "x_axis_1",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis_1",
+                    "lbl": "Number of billionaires",
+                    "scl": "linear",
+                    "dom": [
+                        1226,
+                        3428
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Billionaire Wealth (in $T)",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            2013,
+                            5.4
+                        ],
+                        [
+                            2014,
+                            6.4
+                        ],
+                        [
+                            2015,
+                            7.1
+                        ],
+                        [
+                            2016,
+                            6.5
+                        ],
+                        [
+                            2017,
+                            7.7
+                        ],
+                        [
+                            2018,
+                            9.1
+                        ],
+                        [
+                            2019,
+                            8.7
+                        ],
+                        [
+                            2020,
+                            8
+                        ],
+                        [
+                            2021,
+                            13.1
+                        ],
+                        [
+                            2022,
+                            12.7
+                        ],
+                        [
+                            2023,
+                            12.2
+                        ],
+                        [
+                            2024,
+                            14.2
+                        ],
+                        [
+                            2025,
+                            16.1
+                        ],
+                        [
+                            2026,
+                            20.1
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 20.1,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 5.4,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "Number of billionaires",
+                    "y_ref": "y_axis_1",
+                    "data": [
+                        [
+                            2013,
+                            1426
+                        ],
+                        [
+                            2014,
+                            1645
+                        ],
+                        [
+                            2015,
+                            1826
+                        ],
+                        [
+                            2016,
+                            1810
+                        ],
+                        [
+                            2017,
+                            2043
+                        ],
+                        [
+                            2018,
+                            2208
+                        ],
+                        [
+                            2019,
+                            2153
+                        ],
+                        [
+                            2020,
+                            2095
+                        ],
+                        [
+                            2021,
+                            2755
+                        ],
+                        [
+                            2022,
+                            2668
+                        ],
+                        [
+                            2023,
+                            2640
+                        ],
+                        [
+                            2024,
+                            2781
+                        ],
+                        [
+                            2025,
+                            3028
+                        ],
+                        [
+                            2026,
+                            3428
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 3428,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 1426,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2013,
+                    "relation": "At ref point 2013, 'Billionaire Wealth (in $T)' has a higher value (5.4) than 'Number of billionaires' (1426) by 1420.6.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2020,
+                    "relation": "At ref point 2020, 'Billionaire Wealth (in $T)' has a higher value (8) than 'Number of billionaires' (2095) by 2087.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2026,
+                    "relation": "At ref point 2026, 'Billionaire Wealth (in $T)' has a higher value (20.1) than 'Number of billionaires' (3428) by 3407.9.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 2,
+        "image_path": "17979.jpeg",
+        "chart_type": "bar_chart",
+        "claim": "The number of billionaires worldwide more than doubled from 2013 to 2026.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The chart shows that the number of billionaires increased from 1,426 in 2013 to 3,428 in 2026, which is more than double the initial number.",
+        "pruned_spec": {
+            "title": "2020s: The Billionaires’ Decade?",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "Billionaire Wealth (in $T)",
+                    "scl": "linear",
+                    "dom": [
+                        4.1,
+                        20.6
+                    ]
+                },
+                {
+                    "name": "x_axis_1",
+                    "scl": "categorical",
+                    "dom": [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025",
+                        "2026"
+                    ]
+                },
+                {
+                    "name": "y_axis_1",
+                    "lbl": "Number of billionaires",
+                    "scl": "linear",
+                    "dom": [
+                        1226,
+                        3428
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Billionaire Wealth (in $T)",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            2013,
+                            5.4
+                        ],
+                        [
+                            2014,
+                            6.4
+                        ],
+                        [
+                            2015,
+                            7.1
+                        ],
+                        [
+                            2016,
+                            6.5
+                        ],
+                        [
+                            2017,
+                            7.7
+                        ],
+                        [
+                            2018,
+                            9.1
+                        ],
+                        [
+                            2019,
+                            8.7
+                        ],
+                        [
+                            2020,
+                            8
+                        ],
+                        [
+                            2021,
+                            13.1
+                        ],
+                        [
+                            2022,
+                            12.7
+                        ],
+                        [
+                            2023,
+                            12.2
+                        ],
+                        [
+                            2024,
+                            14.2
+                        ],
+                        [
+                            2025,
+                            16.1
+                        ],
+                        [
+                            2026,
+                            20.1
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 20.1,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 5.4,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "Number of billionaires",
+                    "y_ref": "y_axis_1",
+                    "data": [
+                        [
+                            2013,
+                            1426
+                        ],
+                        [
+                            2014,
+                            1645
+                        ],
+                        [
+                            2015,
+                            1826
+                        ],
+                        [
+                            2016,
+                            1810
+                        ],
+                        [
+                            2017,
+                            2043
+                        ],
+                        [
+                            2018,
+                            2208
+                        ],
+                        [
+                            2019,
+                            2153
+                        ],
+                        [
+                            2020,
+                            2095
+                        ],
+                        [
+                            2021,
+                            2755
+                        ],
+                        [
+                            2022,
+                            2668
+                        ],
+                        [
+                            2023,
+                            2640
+                        ],
+                        [
+                            2024,
+                            2781
+                        ],
+                        [
+                            2025,
+                            3028
+                        ],
+                        [
+                            2026,
+                            3428
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2013,
+                                    2020
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    2020,
+                                    2026
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 3428,
+                        "max_at_the_ref_point": 2026,
+                        "min_value": 1426,
+                        "min_at_the_ref_point": 2013,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2013,
+                    "relation": "At ref point 2013, 'Billionaire Wealth (in $T)' has a higher value (5.4) than 'Number of billionaires' (1426) by 1420.6.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2020,
+                    "relation": "At ref point 2020, 'Billionaire Wealth (in $T)' has a higher value (8) than 'Number of billionaires' (2095) by 2087.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                },
+                {
+                    "ref": 2026,
+                    "relation": "At ref point 2026, 'Billionaire Wealth (in $T)' has a higher value (20.1) than 'Number of billionaires' (3428) by 3407.9.",
+                    "ranking": [
+                        "Number of billionaires",
+                        "Billionaire Wealth (in $T)"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 3,
+        "image_path": "35976.jpeg",
+        "chart_type": "horizontal_bar_chart",
+        "claim": "Process automation is the most common use case for AI among content marketers, utilized by over 70% of respondents.",
+        "truth": "(REFUTED claim)",
+        "prediction": "REFUTED",
+        "rationale": "The bar representing process automation is the shortest, indicating that it is not the most common use case for AI among content marketers.",
+        "pruned_spec": {
+            "title": "Content Marketers Embrace AI in Content Creation",
+            "topo": {
+                "type": "bar",
+                "sub": "horizontal"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "Content creation (text, image, video)",
+                        "Analysis, reporting & performance measurement",
+                        "Customer service/chatbots",
+                        "Ideation/inspiration",
+                        "Process automation",
+                        "Knowledge management/documentation",
+                        "SEO (Search Engine Optimization)",
+                        "Personalization of content",
+                        "We do not use AI tools (so far)"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.56,
+                        54.44
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Share of respondents whose department applies AI tools for the following use cases (in %)",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "Content creation (text, image, video)",
+                            52
+                        ],
+                        [
+                            "Analysis, reporting & performance measurement",
+                            45
+                        ],
+                        [
+                            "Customer service/chatbots",
+                            38
+                        ],
+                        [
+                            "Ideation/inspiration",
+                            38
+                        ],
+                        [
+                            "Process automation",
+                            37
+                        ],
+                        [
+                            "Knowledge management/documentation",
+                            35
+                        ],
+                        [
+                            "SEO (Search Engine Optimization)",
+                            33
+                        ],
+                        [
+                            "Personalization of content",
+                            32
+                        ],
+                        [
+                            "We do not use AI tools (so far)",
+                            4
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    "Content creation (text, image, video)",
+                                    "Knowledge management/documentation"
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    "Knowledge management/documentation",
+                                    "We do not use AI tools (so far)"
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 52,
+                        "max_at_the_ref_point": "Content creation (text, image, video)",
+                        "min_value": 4,
+                        "min_at_the_ref_point": "We do not use AI tools (so far)",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 4,
+        "image_path": "35976.jpeg",
+        "chart_type": "horizontal_bar_chart",
+        "claim": "Over half of the surveyed content marketing professionals use AI tools for content creation, making it the top use case.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The bar representing \"Content creation (text, image, video)\" is the longest, indicating that it is the most common use case among the surveyed content marketing professionals.",
+        "pruned_spec": {
+            "title": "Content Marketers Embrace AI in Content Creation",
+            "topo": {
+                "type": "bar",
+                "sub": "horizontal"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "Content creation (text, image, video)",
+                        "Analysis, reporting & performance measurement",
+                        "Customer service/chatbots",
+                        "Ideation/inspiration",
+                        "Process automation",
+                        "Knowledge management/documentation",
+                        "SEO (Search Engine Optimization)",
+                        "Personalization of content",
+                        "We do not use AI tools (so far)"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.56,
+                        54.44
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Share of respondents whose department applies AI tools for the following use cases (in %)",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "Content creation (text, image, video)",
+                            52
+                        ],
+                        [
+                            "Analysis, reporting & performance measurement",
+                            45
+                        ],
+                        [
+                            "Customer service/chatbots",
+                            38
+                        ],
+                        [
+                            "Ideation/inspiration",
+                            38
+                        ],
+                        [
+                            "Process automation",
+                            37
+                        ],
+                        [
+                            "Knowledge management/documentation",
+                            35
+                        ],
+                        [
+                            "SEO (Search Engine Optimization)",
+                            33
+                        ],
+                        [
+                            "Personalization of content",
+                            32
+                        ],
+                        [
+                            "We do not use AI tools (so far)",
+                            4
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "moderate",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    "Content creation (text, image, video)",
+                                    "Knowledge management/documentation"
+                                ],
+                                "trend": "fluctuating"
+                            },
+                            {
+                                "x_range": [
+                                    "Knowledge management/documentation",
+                                    "We do not use AI tools (so far)"
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 52,
+                        "max_at_the_ref_point": "Content creation (text, image, video)",
+                        "min_value": 4,
+                        "min_at_the_ref_point": "We do not use AI tools (so far)",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 5,
+        "image_path": "35957.jpeg",
+        "chart_type": "clustered_bar_chart",
+        "claim": "The number of new web censorship cases steadily decreased every year from 2022 to 2025.",
+        "truth": "(REFUTED claim)",
+        "prediction": "REFUTED",
+        "rationale": "The chart shows that the number of new web censorship cases increased from 2022 to 2023, then decreased in 2024 and remained stable in 2025.",
+        "pruned_spec": {
+            "title": "Web Censorship Cases Rebound in 2025",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.8,
+                        87.2
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Ongoing violations at the start of the year",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            2022,
+                            34
+                        ],
+                        [
+                            2023,
+                            40
+                        ],
+                        [
+                            2024,
+                            53
+                        ],
+                        [
+                            2025,
+                            47
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "peak_then_drop",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "increase"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 53,
+                        "max_at_the_ref_point": 2024,
+                        "min_value": 34,
+                        "min_at_the_ref_point": 2022,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "New cases reported during the year",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            2022,
+                            78
+                        ],
+                        [
+                            2023,
+                            76
+                        ],
+                        [
+                            2024,
+                            63
+                        ],
+                        [
+                            2025,
+                            81
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "decrease"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 81,
+                        "max_at_the_ref_point": 2025,
+                        "min_value": 63,
+                        "min_at_the_ref_point": 2024,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2022,
+                    "relation": "At ref point 2022, 'New cases reported during the year' has a higher value (78) than 'Ongoing violations at the start of the year' (34) by 44.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2024,
+                    "relation": "At ref point 2024, 'New cases reported during the year' has a higher value (63) than 'Ongoing violations at the start of the year' (53) by 10.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2025,
+                    "relation": "At ref point 2025, 'New cases reported during the year' has a higher value (81) than 'Ongoing violations at the start of the year' (47) by 34.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 6,
+        "image_path": "35957.jpeg",
+        "chart_type": "clustered_bar_chart",
+        "claim": "There were more new web censorship cases reported in 2025 than in any other year shown on the chart.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The bar for New cases reported during the year is highest for 2025, indicating that it had the most new cases reported during that year.",
+        "pruned_spec": {
+            "title": "Web Censorship Cases Rebound in 2025",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "2022",
+                        "2023",
+                        "2024",
+                        "2025"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        2.8,
+                        87.2
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Ongoing violations at the start of the year",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            2022,
+                            34
+                        ],
+                        [
+                            2023,
+                            40
+                        ],
+                        [
+                            2024,
+                            53
+                        ],
+                        [
+                            2025,
+                            47
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "peak_then_drop",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "increase"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "decrease"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 53,
+                        "max_at_the_ref_point": 2024,
+                        "min_value": 34,
+                        "min_at_the_ref_point": 2022,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "New cases reported during the year",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            2022,
+                            78
+                        ],
+                        [
+                            2023,
+                            76
+                        ],
+                        [
+                            2024,
+                            63
+                        ],
+                        [
+                            2025,
+                            81
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    2022,
+                                    2024
+                                ],
+                                "trend": "decrease"
+                            },
+                            {
+                                "x_range": [
+                                    2024,
+                                    2025
+                                ],
+                                "trend": "increase"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 81,
+                        "max_at_the_ref_point": 2025,
+                        "min_value": 63,
+                        "min_at_the_ref_point": 2024,
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "ref": 2022,
+                    "relation": "At ref point 2022, 'New cases reported during the year' has a higher value (78) than 'Ongoing violations at the start of the year' (34) by 44.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2024,
+                    "relation": "At ref point 2024, 'New cases reported during the year' has a higher value (63) than 'Ongoing violations at the start of the year' (53) by 10.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                },
+                {
+                    "ref": 2025,
+                    "relation": "At ref point 2025, 'New cases reported during the year' has a higher value (81) than 'Ongoing violations at the start of the year' (47) by 34.",
+                    "ranking": [
+                        "New cases reported during the year",
+                        "Ongoing violations at the start of the year"
+                    ]
+                }
+            ]
+        }
+    }
+]

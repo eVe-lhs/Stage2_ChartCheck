@@ -1,0 +1,74 @@
+[
+    {
+        "sample_id": 1,
+        "image_path": "box-plot-preview.png",
+        "chart_type": "box_plot",
+        "claim": "In Experiment 18, Data Set 2 has a higher median value than Data Set 1.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The median for Data Set 2 is above that of Data Set 1 in Experiment 18."
+    },
+    {
+        "sample_id": 2,
+        "image_path": "box-plot-preview.png",
+        "chart_type": "box_plot",
+        "claim": "Across most experiments shown, (blue) consistently displays a larger number of lower-end outliers compared to Data Set 2.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The box plots for Data Set 1 (blue) generally have longer lower whiskers indicating more variability at the lower end compared to Data Set 2 (red)."
+    },
+    {
+        "sample_id": 3,
+        "image_path": "box-plot-preview.png",
+        "chart_type": "box_plot",
+        "claim": "In Experiment 24, Data Set 2 shows a significantly higher maximum value, including outliers, than Data Set 1.",
+        "truth": "(REFUTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The box plot for Data Set 2 in Experiment 24 extends to a higher maximum value compared to Data Set 1, indicating a higher range."
+    },
+    {
+        "sample_id": 4,
+        "image_path": "box-plot-preview.png",
+        "chart_type": "box_plot",
+        "claim": "The interquartile range for Data Set 1 remains perfectly constant across all experiments from 18 to 25.",
+        "truth": "(REFUTED claim)",
+        "prediction": "REFUTED",
+        "rationale": "The interquartile ranges for Data Set 1 vary slightly between experiments, as indicated by the box lengths changing across different experiments."
+    },
+    {
+        "sample_id": 5,
+        "image_path": "heatmap.png",
+        "chart_type": "density_heatmap",
+        "claim": "There is a distinct shift in the data distribution starting at C11, where the highest density areas (dark red) move from being centered near 0 to being more spread out or slightly higher.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The color gradient shifts from dark red to lighter shades as we move from left to right, indicating changes in density. The highest density areas (dark red) do indeed appear to shift position between C10 and C11."
+    },
+    {
+        "sample_id": 6,
+        "image_path": "heatmap.png",
+        "chart_type": "density_heatmap",
+        "claim": "For category C8, the mean value is slightly higher than the 50% percentile (median) value.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The dashed line representing the mean value for C8 is above the solid line representing the 50% percentile."
+    },
+    {
+        "sample_id": 7,
+        "image_path": "heatmap.png",
+        "chart_type": "density_heatmap",
+        "claim": "The 100% percentile line (the top dashed line) remains at a constant value of m = 3.0 for every category from C1 to C20.",
+        "truth": "(REFUTED claim)",
+        "prediction": "REFUTED",
+        "rationale": "The 100% percentile line does not remain at a constant value of m = 3.0; it varies across different categories."
+    },
+    {
+        "sample_id": 8,
+        "image_path": "heatmap.png",
+        "chart_type": "density_heatmap",
+        "claim": "The density of m at a value of -3 is consistently high (above 0.4) across all categories.",
+        "truth": "(REFUTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The color bar indicates that dark red represents a density of approximately 0.5, which is above 0.4. At the value of -3 on the y-axis, the color is consistently dark red across most categories."
+    }
+]

@@ -1,5 +1,4 @@
-[
-    {
+[{
         "local_image_path": "local_images\\Noncompetitive_kinetics.PNG",
         "original_url": "https://chartfc.s3.amazonaws.com/Noncompetitive_kinetics.PNG",
         "claim": "The chart represents the effect of temperature on enzyme activity.",
@@ -4370,8 +4369,8 @@
         "title_description": "*Bar chart of cumulative greenhouse gas emissions by country and region\nData source: \u25cf Cover article: Total cumulative greenhouse gas emissions. epthinktank.eu. European Parliamentary Research Service. Archived from the original on 28 December 2021.\u25cf Direct link to graphic: Total cumulative greenhouse gas emissions (graphic). EPthinktank.eu. European Parliamentary Research Service. Archived from the original on 28 December 2021. \"\"Source: den Elzen et al. 2013. Source: PBL Netherlands Environmental Assessment Agency www.pbl.nl\"\"\nArchive link: https://web.archive.org/web/20211228045517/https://epthinktank.eu/2015/11/28/cop21-and-agenda-2030-the-challenges-of-complementarity/capture-25/\nArchive link:https://web.archive.org/web/20211228044515/https://i0.wp.com/epthinktank.eu/wp-content/uploads/2015/11/total-cumulative-greenhouse-gas-emissions.png\nUploader generated most of SVG code with the Horizontal bar charts spreadsheet from User:RCraig09/Excel to XML for SVG; color changes, and minor moves and nudges, were performed manually in a text editor on the SVG code.\nSimilar chart for cumulative CO2 emissions only, is at File:20211026 Cumulative carbon dioxide CO2 emissions by country - bar chart.png"
     },
     {
-        "local_image_path": "local_images\\Media_Viewer_-_Survey_Graph_-_Overall_Usefulness_-_May_5_2014.png",
-        "original_url": "https://chartfc.s3.amazonaws.com/Media_Viewer_-_Survey_Graph_-_Overall_Usefulness_-_May_5_2014.png",
+        "local_image_path": "local_images\\OverallUsefulness.png",
+        "original_url": "https://chartfc.s3.amazonaws.com/OverallUsefulness.png",
         "claim": "The yes part of the chart is green and occupies 65% of the chart ",
         "label": true,
         "explanation": "The 65% of the chart represents the green color yes section.    ",
@@ -6520,8 +6519,8 @@
         "title_description": "Graph Displays Values from Input Boxes"
     },
     {
-        "local_image_path": "local_images\\Media_Viewer_-_Survey_Graph_-_Respondents_by_Group_-_May_5_2014.png",
-        "original_url": "https://chartfc.s3.amazonaws.com/Media_Viewer_-_Survey_Graph_-_Respondents_by_Group_-_May_5_2014.png",
+        "local_image_path": "local_images\\RespondentsByGroup.png",
+        "original_url": "https://chartfc.s3.amazonaws.com/RespondentsByGroup.png",
         "claim": "56% readers available for Media viewer at May 5, 2014.",
         "label": true,
         "explanation": "The blue colour piece indicate the Readers in the pie chart which is label by 56% of media viewer at May 5, 2014.",
