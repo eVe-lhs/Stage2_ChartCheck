@@ -1,5 +1,4 @@
-[
-    {
+[{
         "local_image_path": "local_images\\TOILET_MEAL_SOCIAL_RESERCH.jpg",
         "original_url": "https://chartfc.s3.amazonaws.com/TOILET_MEAL_SOCIAL_RESERCH.jpg",
         "claim": "Only 12.08% of respondents have eaten in a public bathroom.",
@@ -4899,8 +4898,8 @@
         "title_description": "A colour-coded pie chart showing the share of GDP of member states of the Arab League at nominal values. Sourced used are the IMF, United Nations and World Bank."
     },
     {
-        "local_image_path": "local_images\\Media_Viewer_-_Survey_Graph_-_Overall_Usefulness_-_May_5_2014.png",
-        "original_url": "https://chartfc.s3.amazonaws.com/Media_Viewer_-_Survey_Graph_-_Overall_Usefulness_-_May_5_2014.png",
+        "local_image_path": "local_images\\OverallUsefulness.png",
+        "original_url": "https://chartfc.s3.amazonaws.com/OverallUsefulness.png",
         "claim": "Not sure is slightly maximum percentage than the No in Wikimedia Foundation Survey Results",
         "label": false,
         "explanation": "Not sure has the Least percentage of 7% in the pie chart. Whereas the No is having the 28% in the pie chart.",
@@ -6629,8 +6628,8 @@
         "title_description": "Images shows the contributions to the plastic defects during injection moulding"
     },
     {
-        "local_image_path": "local_images\\Media_Viewer_-_Survey_Graph_-_Respondents_by_Group_-_May_5_2014.png",
-        "original_url": "https://chartfc.s3.amazonaws.com/Media_Viewer_-_Survey_Graph_-_Respondents_by_Group_-_May_5_2014.png",
+        "local_image_path": "local_images\\RespondentsByGroup.png",
+        "original_url": "https://chartfc.s3.amazonaws.com/RespondentsByGroup.png",
         "claim": "Readers make up over half of the media viewers as of May 5, 2014.",
         "label": true,
         "explanation": "Readers are represented by the blue portion of the pie chart, which makes up 56 percent.. ",

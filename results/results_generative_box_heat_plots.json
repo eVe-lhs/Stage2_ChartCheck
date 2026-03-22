@@ -1,0 +1,1238 @@
+[
+    {
+        "sample_id": 1,
+        "image_path": "box-plot-preview.png",
+        "chart_type": "box_plot",
+        "claim": "In Experiment 18, Data Set 2 has a higher median value than Data Set 1.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The chart shows that in Experiment 18, Data Set 2 has a higher median value than Data Set 1, which is indicated by the higher point on the graph for Data Set 2 compared to Data Set 1.",
+        "pruned_spec": {
+            "title": "Experiment History",
+            "topo": {
+                "type": "box",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "Experiment 18",
+                        "Experiment 20",
+                        "Experiment 22",
+                        "Experiment 24"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        36,
+                        854
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Box Distribution",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "Experiment 18",
+                            170,
+                            300,
+                            450,
+                            550,
+                            650
+                        ],
+                        [
+                            "Experiment 20",
+                            190,
+                            250,
+                            350,
+                            450,
+                            550
+                        ],
+                        [
+                            "Experiment 22",
+                            230,
+                            280,
+                            380,
+                            480,
+                            580
+                        ],
+                        [
+                            "Experiment 24",
+                            210,
+                            270,
+                            360,
+                            460,
+                            560
+                        ]
+                    ],
+                    "stats": {
+                        "min_value": 170,
+                        "max_value": 650
+                    },
+                    "distribution_summary": {
+                        "average_iqr": 152.5,
+                        "box_details": [
+                            {
+                                "x_category": "Experiment 18",
+                                "iqr": 250,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 20",
+                                "iqr": 200,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 22",
+                                "iqr": 200,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 24",
+                                "iqr": 190,
+                                "skewness": "positive_skew"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "scatter_series_outliers",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "Experiment 18",
+                            350
+                        ],
+                        [
+                            "Experiment 18",
+                            700
+                        ],
+                        [
+                            "Experiment 20",
+                            300
+                        ],
+                        [
+                            "Experiment 22",
+                            200
+                        ],
+                        [
+                            "Experiment 22",
+                            700
+                        ],
+                        [
+                            "Experiment 24",
+                            150
+                        ],
+                        [
+                            "Experiment 24",
+                            600
+                        ]
+                    ]
+                }
+            ],
+            "rel": [
+                {
+                    "relation_type": "global_median_difference",
+                    "description": "Category 'Experiment 18' has the highest median (450), leading the lowest category 'Experiment 24' (360) by 90.",
+                    "ranking": [
+                        "Experiment 18",
+                        "Experiment 22",
+                        "Experiment 20",
+                        "Experiment 24"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 2,
+        "image_path": "box-plot-preview.png",
+        "chart_type": "box_plot",
+        "claim": "Across most experiments shown, (blue) consistently displays a larger number of lower-end outliers compared to Data Set 2.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The blue line is higher than the red line across all experiments.",
+        "pruned_spec": {
+            "title": "Experiment History",
+            "topo": {
+                "type": "box",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "Experiment 18",
+                        "Experiment 20",
+                        "Experiment 22",
+                        "Experiment 24"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        36,
+                        854
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Box Distribution",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "Experiment 18",
+                            170,
+                            300,
+                            450,
+                            550,
+                            650
+                        ],
+                        [
+                            "Experiment 20",
+                            190,
+                            250,
+                            350,
+                            450,
+                            550
+                        ],
+                        [
+                            "Experiment 22",
+                            230,
+                            280,
+                            380,
+                            480,
+                            580
+                        ],
+                        [
+                            "Experiment 24",
+                            210,
+                            270,
+                            360,
+                            460,
+                            560
+                        ]
+                    ],
+                    "stats": {
+                        "min_value": 170,
+                        "max_value": 650
+                    },
+                    "distribution_summary": {
+                        "average_iqr": 152.5,
+                        "box_details": [
+                            {
+                                "x_category": "Experiment 18",
+                                "iqr": 250,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 20",
+                                "iqr": 200,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 22",
+                                "iqr": 200,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 24",
+                                "iqr": 190,
+                                "skewness": "positive_skew"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "scatter_series_outliers",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "Experiment 18",
+                            350
+                        ],
+                        [
+                            "Experiment 18",
+                            700
+                        ],
+                        [
+                            "Experiment 20",
+                            300
+                        ],
+                        [
+                            "Experiment 22",
+                            200
+                        ],
+                        [
+                            "Experiment 22",
+                            700
+                        ],
+                        [
+                            "Experiment 24",
+                            150
+                        ],
+                        [
+                            "Experiment 24",
+                            600
+                        ]
+                    ]
+                }
+            ],
+            "rel": [
+                {
+                    "relation_type": "global_median_difference",
+                    "description": "Category 'Experiment 18' has the highest median (450), leading the lowest category 'Experiment 24' (360) by 90.",
+                    "ranking": [
+                        "Experiment 18",
+                        "Experiment 22",
+                        "Experiment 20",
+                        "Experiment 24"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 3,
+        "image_path": "box-plot-preview.png",
+        "chart_type": "box_plot",
+        "claim": "In Experiment 24, Data Set 2 shows a significantly higher maximum value, including outliers, than Data Set 1.",
+        "truth": "(REFUTED claim)",
+        "prediction": "REFUTED",
+        "rationale": "The chart shows that in Experiment 24, Data Set 2 has a higher maximum value, including outliers, than Data Set 1, indicating that it is not true that Data Set 1 has a higher maximum value than Data Set 2.",
+        "pruned_spec": {
+            "title": "Experiment History",
+            "topo": {
+                "type": "box",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "Experiment 18",
+                        "Experiment 20",
+                        "Experiment 22",
+                        "Experiment 24"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        36,
+                        854
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Box Distribution",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "Experiment 18",
+                            170,
+                            300,
+                            450,
+                            550,
+                            650
+                        ],
+                        [
+                            "Experiment 20",
+                            190,
+                            250,
+                            350,
+                            450,
+                            550
+                        ],
+                        [
+                            "Experiment 22",
+                            230,
+                            280,
+                            380,
+                            480,
+                            580
+                        ],
+                        [
+                            "Experiment 24",
+                            210,
+                            270,
+                            360,
+                            460,
+                            560
+                        ]
+                    ],
+                    "stats": {
+                        "min_value": 170,
+                        "max_value": 650
+                    },
+                    "distribution_summary": {
+                        "average_iqr": 152.5,
+                        "box_details": [
+                            {
+                                "x_category": "Experiment 18",
+                                "iqr": 250,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 20",
+                                "iqr": 200,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 22",
+                                "iqr": 200,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 24",
+                                "iqr": 190,
+                                "skewness": "positive_skew"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "scatter_series_outliers",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "Experiment 18",
+                            350
+                        ],
+                        [
+                            "Experiment 18",
+                            700
+                        ],
+                        [
+                            "Experiment 20",
+                            300
+                        ],
+                        [
+                            "Experiment 22",
+                            200
+                        ],
+                        [
+                            "Experiment 22",
+                            700
+                        ],
+                        [
+                            "Experiment 24",
+                            150
+                        ],
+                        [
+                            "Experiment 24",
+                            600
+                        ]
+                    ]
+                }
+            ],
+            "rel": [
+                {
+                    "relation_type": "global_median_difference",
+                    "description": "Category 'Experiment 18' has the highest median (450), leading the lowest category 'Experiment 24' (360) by 90.",
+                    "ranking": [
+                        "Experiment 18",
+                        "Experiment 22",
+                        "Experiment 20",
+                        "Experiment 24"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 4,
+        "image_path": "box-plot-preview.png",
+        "chart_type": "box_plot",
+        "claim": "The interquartile range for Data Set 1 remains perfectly constant across all experiments from 18 to 25.",
+        "truth": "(REFUTED claim)",
+        "prediction": "REFUTED",
+        "rationale": "The interquartile range for Data Set 1 varies between 18 and 25, indicating that it is not perfectly constant across all experiments.",
+        "pruned_spec": {
+            "title": "Experiment History",
+            "topo": {
+                "type": "box",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "Experiment 18",
+                        "Experiment 20",
+                        "Experiment 22",
+                        "Experiment 24"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        36,
+                        854
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "Box Distribution",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "Experiment 18",
+                            170,
+                            300,
+                            450,
+                            550,
+                            650
+                        ],
+                        [
+                            "Experiment 20",
+                            190,
+                            250,
+                            350,
+                            450,
+                            550
+                        ],
+                        [
+                            "Experiment 22",
+                            230,
+                            280,
+                            380,
+                            480,
+                            580
+                        ],
+                        [
+                            "Experiment 24",
+                            210,
+                            270,
+                            360,
+                            460,
+                            560
+                        ]
+                    ],
+                    "stats": {
+                        "min_value": 170,
+                        "max_value": 650
+                    },
+                    "distribution_summary": {
+                        "average_iqr": 152.5,
+                        "box_details": [
+                            {
+                                "x_category": "Experiment 18",
+                                "iqr": 250,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 20",
+                                "iqr": 200,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 22",
+                                "iqr": 200,
+                                "skewness": "positive_skew"
+                            },
+                            {
+                                "x_category": "Experiment 24",
+                                "iqr": 190,
+                                "skewness": "positive_skew"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "scatter_series_outliers",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "Experiment 18",
+                            350
+                        ],
+                        [
+                            "Experiment 18",
+                            700
+                        ],
+                        [
+                            "Experiment 20",
+                            300
+                        ],
+                        [
+                            "Experiment 22",
+                            200
+                        ],
+                        [
+                            "Experiment 22",
+                            700
+                        ],
+                        [
+                            "Experiment 24",
+                            150
+                        ],
+                        [
+                            "Experiment 24",
+                            600
+                        ]
+                    ]
+                }
+            ],
+            "rel": [
+                {
+                    "relation_type": "global_median_difference",
+                    "description": "Category 'Experiment 18' has the highest median (450), leading the lowest category 'Experiment 24' (360) by 90.",
+                    "ranking": [
+                        "Experiment 18",
+                        "Experiment 22",
+                        "Experiment 20",
+                        "Experiment 24"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 5,
+        "image_path": "heatmap.png",
+        "chart_type": "density_heatmap",
+        "claim": "There is a distinct shift in the data distribution starting at C11, where the highest density areas (dark red) move from being centered near 0 to being more spread out or slightly higher.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The density heatmap shows that the dark red regions, indicating high density, are concentrated around 0 for C1-C10 but then expand and shift upwards for C11 onwards, indicating a change in the data distribution.",
+        "pruned_spec": {
+            "title": "Density heatmap of m",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "C1",
+                        "C2",
+                        "C3",
+                        "C4",
+                        "C5",
+                        "C6",
+                        "C7",
+                        "C8",
+                        "C9",
+                        "C10",
+                        "C11",
+                        "C12",
+                        "C13",
+                        "C14",
+                        "C15",
+                        "C16",
+                        "C17",
+                        "C18",
+                        "C19",
+                        "C20"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "m",
+                    "scl": "linear",
+                    "dom": [
+                        -3.2,
+                        3.6
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "threshold_y-3.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                },
+                {
+                    "name": "threshold_y-2.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                },
+                {
+                    "name": "threshold_y-1.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "relation_type": "global_maximums_y_axis",
+                    "description": "'threshold_y3.000' achieves the highest overall peak (0.5 at ref point C1) among all data series.",
+                    "peak_magnitude_ranking": [
+                        "threshold_y3.000",
+                        "threshold_y2.000",
+                        "threshold_y1.000",
+                        "threshold_y0.000",
+                        "threshold_y-1.000",
+                        "threshold_y-2.000",
+                        "threshold_y-3.000"
+                    ]
+                }
+            ],
+            "is_truncated": true
+        }
+    },
+    {
+        "sample_id": 6,
+        "image_path": "heatmap.png",
+        "chart_type": "density_heatmap",
+        "claim": "For category C8, the mean value is slightly higher than the 50% percentile (median) value.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The density heatmap shows that for category C8, the mean value is slightly higher than the 50% percentile (median) value, which is indicated by the red line on the chart.",
+        "pruned_spec": {
+            "title": "Density heatmap of m",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "C1",
+                        "C2",
+                        "C3",
+                        "C4",
+                        "C5",
+                        "C6",
+                        "C7",
+                        "C8",
+                        "C9",
+                        "C10",
+                        "C11",
+                        "C12",
+                        "C13",
+                        "C14",
+                        "C15",
+                        "C16",
+                        "C17",
+                        "C18",
+                        "C19",
+                        "C20"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "m",
+                    "scl": "linear",
+                    "dom": [
+                        -3.2,
+                        3.6
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "threshold_y-3.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                },
+                {
+                    "name": "threshold_y-2.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                },
+                {
+                    "name": "threshold_y1.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "relation_type": "global_maximums_y_axis",
+                    "description": "'threshold_y3.000' achieves the highest overall peak (0.5 at ref point C1) among all data series.",
+                    "peak_magnitude_ranking": [
+                        "threshold_y3.000",
+                        "threshold_y2.000",
+                        "threshold_y1.000",
+                        "threshold_y0.000",
+                        "threshold_y-1.000",
+                        "threshold_y-2.000",
+                        "threshold_y-3.000"
+                    ]
+                }
+            ],
+            "is_truncated": true
+        }
+    },
+    {
+        "sample_id": 7,
+        "image_path": "heatmap.png",
+        "chart_type": "density_heatmap",
+        "claim": "The 100% percentile line (the top dashed line) remains at a constant value of m = 3.0 for every category from C1 to C20.",
+        "truth": "(REFUTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The 100% percentile line is represented by the top dashed line in the chart, and it remains at a constant value of m = 3.0 across all categories from C1 to C20.",
+        "pruned_spec": {
+            "title": "Density heatmap of m",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "C1",
+                        "C2",
+                        "C3",
+                        "C4",
+                        "C5",
+                        "C6",
+                        "C7",
+                        "C8",
+                        "C9",
+                        "C10",
+                        "C11",
+                        "C12",
+                        "C13",
+                        "C14",
+                        "C15",
+                        "C16",
+                        "C17",
+                        "C18",
+                        "C19",
+                        "C20"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "m",
+                    "scl": "linear",
+                    "dom": [
+                        -3.2,
+                        3.6
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "threshold_y-3.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                },
+                {
+                    "name": "threshold_y-2.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                },
+                {
+                    "name": "threshold_y-1.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "relation_type": "global_maximums_y_axis",
+                    "description": "'threshold_y3.000' achieves the highest overall peak (0.5 at ref point C1) among all data series.",
+                    "peak_magnitude_ranking": [
+                        "threshold_y3.000",
+                        "threshold_y2.000",
+                        "threshold_y1.000",
+                        "threshold_y0.000",
+                        "threshold_y-1.000",
+                        "threshold_y-2.000",
+                        "threshold_y-3.000"
+                    ]
+                }
+            ],
+            "is_truncated": true
+        }
+    },
+    {
+        "sample_id": 8,
+        "image_path": "heatmap.png",
+        "chart_type": "density_heatmap",
+        "claim": "The density of m at a value of -3 is consistently high (above 0.4) across all categories.",
+        "truth": "(REFUTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The density of m at a value of -3 is above 0.4 for all categories, indicating that it is a consistent high value across all categories.",
+        "pruned_spec": {
+            "title": "Density heatmap of m",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "C1",
+                        "C2",
+                        "C3",
+                        "C4",
+                        "C5",
+                        "C6",
+                        "C7",
+                        "C8",
+                        "C9",
+                        "C10",
+                        "C11",
+                        "C12",
+                        "C13",
+                        "C14",
+                        "C15",
+                        "C16",
+                        "C17",
+                        "C18",
+                        "C19",
+                        "C20"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "m",
+                    "scl": "linear",
+                    "dom": [
+                        -3.2,
+                        3.6
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "threshold_y-3.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                },
+                {
+                    "name": "threshold_y-2.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                },
+                {
+                    "name": "threshold_y-1.000",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "C1",
+                            0
+                        ],
+                        [
+                            "C20",
+                            0
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "stable",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 0.0,
+                        "max_at_the_ref_point": "C1",
+                        "min_value": 0.0,
+                        "min_at_the_ref_point": "C1",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 1
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "relation_type": "global_maximums_y_axis",
+                    "description": "'threshold_y3.000' achieves the highest overall peak (0.5 at ref point C1) among all data series.",
+                    "peak_magnitude_ranking": [
+                        "threshold_y3.000",
+                        "threshold_y2.000",
+                        "threshold_y1.000",
+                        "threshold_y0.000",
+                        "threshold_y-1.000",
+                        "threshold_y-2.000",
+                        "threshold_y-3.000"
+                    ]
+                }
+            ],
+            "is_truncated": true
+        }
+    }
+]
