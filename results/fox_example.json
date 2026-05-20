@@ -1,0 +1,570 @@
+[
+    {
+        "sample_id": 1,
+        "image_path": "unemployment.jpg",
+        "chart_type": "line_chart",
+        "claim": "The unemployment rate steadily decreased throughout 2011, ending lower than it started.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The unemployment rate was 9.6% in January, but only 8.9% in December, indicating that it decreased over time.",
+        "pruned_spec": {
+            "title": "UNEMPLOYMENT RATE UNDER PRESIDENT OBAMA",
+            "topo": {
+                "type": "line",
+                "sub": "standard"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "JAN",
+                        "FEB",
+                        "MAR",
+                        "APR",
+                        "MAY",
+                        "JUN",
+                        "JUL",
+                        "AUG",
+                        "SEP",
+                        "OCT",
+                        "NOV"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        0.75,
+                        10.25
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "8.9%",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "FEB",
+                            8.9
+                        ],
+                        [
+                            "DEC",
+                            8.6
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "monotonic_decrease",
+                        "rate_of_change": "rapid"
+                    },
+                    "stats": {
+                        "max_value": 8.9,
+                        "max_at_the_ref_point": "FEB",
+                        "min_value": 8.6,
+                        "min_at_the_ref_point": "DEC",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "9.1%",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "MAY",
+                            9.1
+                        ],
+                        [
+                            "SEP",
+                            9.1
+                        ],
+                        [
+                            "OCT",
+                            9.1
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    "MAY",
+                                    "SEP"
+                                ],
+                                "trend": "peak_then_drop"
+                            },
+                            {
+                                "x_range": [
+                                    "SEP",
+                                    "OCT"
+                                ],
+                                "trend": "stable"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 9.1,
+                        "max_at_the_ref_point": "MAY",
+                        "min_value": 9.1,
+                        "min_at_the_ref_point": "MAY",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "9.2%",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "JUN",
+                            9.2
+                        ],
+                        [
+                            "JUL",
+                            9.1
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "decrease",
+                        "rate_of_change": "rapid"
+                    },
+                    "stats": {
+                        "max_value": 9.2,
+                        "max_at_the_ref_point": "JUN",
+                        "min_value": 9.1,
+                        "min_at_the_ref_point": "JUL",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "relation_type": "global_maximums_y_axis",
+                    "description": "'9.2%' achieves the highest overall peak (9.2% at ref point JUN) among all data series.",
+                    "peak_magnitude_ranking": [
+                        "9.2%",
+                        "9.1%",
+                        "9.0%",
+                        "8.9%",
+                        "8.8%"
+                    ]
+                },
+                {
+                    "ref": "DEC",
+                    "relation": "At ref point DEC, '9.0%' and '8.8%' intersect with a value of 9.",
+                    "ranking": [
+                        "9.0%",
+                        "8.8%",
+                        "8.6%"
+                    ]
+                },
+                {
+                    "ref": "JUL",
+                    "relation": "At ref point JUL, '9.2%' has a higher value (9.1) than '9.1%' (9.1) by 0.",
+                    "ranking": [
+                        "9.2%",
+                        "9.1%",
+                        "9.1%",
+                        "9.1%",
+                        "9.1%"
+                    ]
+                },
+                {
+                    "ref": "SEP",
+                    "relation": "At ref point SEP, '9.1%' has a higher value (9.1) than '9.1%' (9.1) by 0.",
+                    "ranking": [
+                        "9.1%",
+                        "9.1%",
+                        "9.1%",
+                        "9.1%",
+                        "9.1%"
+                    ]
+                }
+            ],
+            "is_truncated": true
+        }
+    },
+    {
+        "sample_id": 2,
+        "image_path": "unemployment.jpg",
+        "chart_type": "line_chart",
+        "claim": "The unemployment rate was at its lowest point in March 2011, reaching 8.8%, and continuously rose for the rest of the year.",
+        "truth": "(REFUTED claim)",
+        "prediction": "REFUTED",
+        "rationale": "The unemployment rate was at its lowest point in March 2011, but it started rising again from April onwards, reaching 9.6% by December 2011.",
+        "pruned_spec": {
+            "title": "UNEMPLOYMENT RATE UNDER PRESIDENT OBAMA",
+            "topo": {
+                "type": "line",
+                "sub": "standard"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "JAN",
+                        "FEB",
+                        "MAR",
+                        "APR",
+                        "MAY",
+                        "JUN",
+                        "JUL",
+                        "AUG",
+                        "SEP",
+                        "OCT",
+                        "NOV"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "scl": "linear",
+                    "dom": [
+                        0.75,
+                        10.25
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "8.9%",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "FEB",
+                            8.9
+                        ],
+                        [
+                            "DEC",
+                            8.6
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "monotonic_decrease",
+                        "rate_of_change": "rapid"
+                    },
+                    "stats": {
+                        "max_value": 8.9,
+                        "max_at_the_ref_point": "FEB",
+                        "min_value": 8.6,
+                        "min_at_the_ref_point": "DEC",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "9.1%",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "MAY",
+                            9.1
+                        ],
+                        [
+                            "SEP",
+                            9.1
+                        ],
+                        [
+                            "OCT",
+                            9.1
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "fluctuating",
+                        "rate_of_change": "rapid",
+                        "intervals": [
+                            {
+                                "x_range": [
+                                    "MAY",
+                                    "SEP"
+                                ],
+                                "trend": "peak_then_drop"
+                            },
+                            {
+                                "x_range": [
+                                    "SEP",
+                                    "OCT"
+                                ],
+                                "trend": "stable"
+                            }
+                        ]
+                    },
+                    "stats": {
+                        "max_value": 9.1,
+                        "max_at_the_ref_point": "MAY",
+                        "min_value": 9.1,
+                        "min_at_the_ref_point": "MAY",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "9.2%",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "JUN",
+                            9.2
+                        ],
+                        [
+                            "JUL",
+                            9.1
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "decrease",
+                        "rate_of_change": "rapid"
+                    },
+                    "stats": {
+                        "max_value": 9.2,
+                        "max_at_the_ref_point": "JUN",
+                        "min_value": 9.1,
+                        "min_at_the_ref_point": "JUL",
+                        "threshold_coverage": {
+                            "above_mean": 1,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ],
+            "rel": [
+                {
+                    "relation_type": "global_maximums_y_axis",
+                    "description": "'9.2%' achieves the highest overall peak (9.2% at ref point JUN) among all data series.",
+                    "peak_magnitude_ranking": [
+                        "9.2%",
+                        "9.1%",
+                        "9.0%",
+                        "8.9%",
+                        "8.8%"
+                    ]
+                },
+                {
+                    "ref": "DEC",
+                    "relation": "At ref point DEC, '9.0%' and '8.8%' intersect with a value of 9.",
+                    "ranking": [
+                        "9.0%",
+                        "8.8%",
+                        "8.6%"
+                    ]
+                },
+                {
+                    "ref": "JUL",
+                    "relation": "At ref point JUL, '9.2%' has a higher value (9.1) than '9.1%' (9.1) by 0.",
+                    "ranking": [
+                        "9.2%",
+                        "9.1%",
+                        "9.1%",
+                        "9.1%",
+                        "9.1%"
+                    ]
+                },
+                {
+                    "ref": "SEP",
+                    "relation": "At ref point SEP, '9.1%' has a higher value (9.1) than '9.1%' (9.1) by 0.",
+                    "ranking": [
+                        "9.1%",
+                        "9.1%",
+                        "9.1%",
+                        "9.1%",
+                        "9.1%"
+                    ]
+                }
+            ],
+            "is_truncated": true
+        }
+    },
+    {
+        "sample_id": 3,
+        "image_path": "bush_tax.png",
+        "chart_type": "bar_chart",
+        "claim": "The top tax rate would increase if the Bush tax cuts expire on January 1, 2013.",
+        "truth": "(SUPPORTED claim)",
+        "prediction": "SUPPORTED",
+        "rationale": "The chart shows that the top tax rate is 39.6% for January 1, 2013, while it is only 35% now.",
+        "pruned_spec": {
+            "title": "IF BUSH TAX CUTS EXPIRE",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "NOW",
+                        "JAN 1, 2013"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "TOP TAX RATE",
+                    "scl": "linear",
+                    "dom": [
+                        33.45,
+                        42.55
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "35%",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "NOW",
+                            35
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "monotonic_increase",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 35,
+                        "max_at_the_ref_point": "NOW",
+                        "min_value": 35,
+                        "min_at_the_ref_point": "NOW",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "39.6%",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "JAN 1, 2013",
+                            39.6
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "monotonic_increase",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 39.6,
+                        "max_at_the_ref_point": "JAN 1, 2013",
+                        "min_value": 39.6,
+                        "min_at_the_ref_point": "JAN 1, 2013",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "sample_id": 4,
+        "image_path": "bush_tax.png",
+        "chart_type": "bar_chart",
+        "claim": "The top tax rate would nearly double if the Bush tax cuts expire.",
+        "truth": "(REFUTED claim)",
+        "prediction": "REFUTED",
+        "rationale": "The chart shows that the top tax rate is 35% now and would be 39.6% in January 2013, which is a difference of 4.6 percentage points, not 8 percentage points as stated in the claim.",
+        "pruned_spec": {
+            "title": "IF BUSH TAX CUTS EXPIRE",
+            "topo": {
+                "type": "bar",
+                "sub": "vertical"
+            },
+            "axes": [
+                {
+                    "name": "x_axis",
+                    "scl": "categorical",
+                    "dom": [
+                        "NOW",
+                        "JAN 1, 2013"
+                    ]
+                },
+                {
+                    "name": "y_axis",
+                    "lbl": "TOP TAX RATE",
+                    "scl": "linear",
+                    "dom": [
+                        33.45,
+                        42.55
+                    ]
+                }
+            ],
+            "ser": [
+                {
+                    "name": "35%",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "NOW",
+                            35
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "monotonic_increase",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 35,
+                        "max_at_the_ref_point": "NOW",
+                        "min_value": 35,
+                        "min_at_the_ref_point": "NOW",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                },
+                {
+                    "name": "39.6%",
+                    "y_ref": "y_axis",
+                    "data": [
+                        [
+                            "JAN 1, 2013",
+                            39.6
+                        ]
+                    ],
+                    "trend": {
+                        "global_trend": "monotonic_increase",
+                        "rate_of_change": "stable"
+                    },
+                    "stats": {
+                        "max_value": 39.6,
+                        "max_at_the_ref_point": "JAN 1, 2013",
+                        "min_value": 39.6,
+                        "min_at_the_ref_point": "JAN 1, 2013",
+                        "threshold_coverage": {
+                            "above_mean": 0,
+                            "all_positive": 1,
+                            "hits_zero": 0
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]
